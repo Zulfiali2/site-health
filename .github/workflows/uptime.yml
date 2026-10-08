@@ -1,0 +1,41 @@
+name: Downtime alert
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"   # every 3 hours
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: site-health
+  cancel-in-progress: false
+
+jobs:
+  uptime:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: |
+          npm init -y >/dev/null
+          npm install --no-save nodemailer@6.9.16
+      - name: Check sites are up
+        env:
+          MAIL_USER: ${{ secrets.MAIL_USER }}
+          MAIL_APP_PASSWORD: ${{ secrets.MAIL_APP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: node tools/uptime.mjs
+      - name: Remember which sites are down
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add uptime-state.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Uptime state update"
+          git pull --rebase
+          git push

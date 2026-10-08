@@ -1,0 +1,58 @@
+name: Weekly health report
+
+on:
+  schedule:
+    - cron: "47 3 * * 1"     # Mondays 03:47 UTC = 8:47 am in Pakistan
+  workflow_dispatch: {}       # run by hand: Actions → Weekly health report → Run workflow
+  push:                       # also runs when the site list or the checks change
+    branches: [main]
+    paths: ["sites.json", "tools/check.mjs", "tools/lib.mjs", "tools/build-dashboard.mjs", "tools/dashboard.template.html"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: site-health
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install tools
+        run: |
+          npm init -y >/dev/null
+          npm install --no-save playwright@1.47.2 lighthouse@12.2.1 chrome-launcher@1.1.2 nodemailer@6.9.16
+          npx playwright install --with-deps chromium
+      - name: Check every site
+        env:
+          LIGHTHOUSE: "1"
+        run: node tools/check.mjs
+      - name: Build dashboard and email
+        run: node tools/build-dashboard.mjs
+      - name: Email the report
+        env:
+          MAIL_USER: ${{ secrets.MAIL_USER }}
+          MAIL_APP_PASSWORD: ${{ secrets.MAIL_APP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: node tools/send-weekly.mjs
+      - name: Keep a copy of the dashboard (Actions → this run → Artifacts)
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-health-dashboard
+          path: dashboard.html
+          retention-days: 90
+      - name: Save the report in the repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports dashboard.html
+          git diff --cached --quiet && exit 0
+          git commit -m "Weekly health report $(date -u +%Y-%m-%d)"
+          git pull --rebase
+          git push

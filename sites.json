@@ -1,0 +1,162 @@
+{
+  "owner": "Zulfiqar Ali Nasir",
+  "title": "Client Site Health",
+  "sites": [
+    {
+      "name": "Ross McKinley",
+      "url": "https://rossmckinley.com/",
+      "group": "Accounting & finance",
+      "env": "live"
+    },
+    {
+      "name": "F&A Accountants",
+      "url": "https://faaccountants.com/",
+      "group": "Accounting & finance",
+      "env": "live"
+    },
+    {
+      "name": "Fiscal Focus Accountants",
+      "url": "https://fiscalfocusaccountantsltd.uk/",
+      "group": "Accounting & finance",
+      "env": "live"
+    },
+    {
+      "name": "White Weaver Accountants",
+      "url": "https://whiteweaveraccountants.com/",
+      "group": "Accounting & finance",
+      "env": "live"
+    },
+    {
+      "name": "White Weaver (staging)",
+      "url": "https://whiteweaver.aqftrading.co.uk/",
+      "group": "Accounting & finance",
+      "env": "staging"
+    },
+    {
+      "name": "MedTax Advisors",
+      "url": "https://medtaxadvisors.co.uk/",
+      "group": "Accounting & finance",
+      "env": "live"
+    },
+    {
+      "name": "Pacific Horizon",
+      "url": "https://pacifichorizon.ae/",
+      "group": "Accounting & finance",
+      "env": "live"
+    },
+    {
+      "name": "AQF Trading",
+      "url": "https://www.aqftrading.co.uk/",
+      "group": "Accounting & finance",
+      "env": "live"
+    },
+    {
+      "name": "Cubeline London",
+      "url": "https://cubelinelondonltd.co.uk/",
+      "group": "Fashion & e-commerce",
+      "env": "live"
+    },
+    {
+      "name": "Glory Fashion",
+      "url": "https://gloryfashion.co.uk/",
+      "group": "Fashion & e-commerce",
+      "env": "live"
+    },
+    {
+      "name": "Naseer Garments",
+      "url": "https://naseergarments.com/",
+      "group": "Fashion & e-commerce",
+      "env": "live"
+    },
+    {
+      "name": "Silver Victory Fashion",
+      "url": "https://silvervictoryfashion.com/",
+      "group": "Fashion & e-commerce",
+      "env": "live"
+    },
+    {
+      "name": "Ayura Holistic Wellness",
+      "url": "https://ayuraholisticwellness.co.uk/",
+      "group": "Beauty & wellness",
+      "env": "live"
+    },
+    {
+      "name": "Ridley Beauty Zone",
+      "url": "https://www.ridleybeautyzone.co.uk/",
+      "group": "Beauty & wellness",
+      "env": "live"
+    },
+    {
+      "name": "Lola's Beauty Salon",
+      "url": "https://lolassaloon.tasneemkausar.com/",
+      "group": "Beauty & wellness",
+      "env": "staging"
+    },
+    {
+      "name": "Hair Port",
+      "url": "https://hairport.aqftrading.co.uk/",
+      "group": "Beauty & wellness",
+      "env": "staging"
+    },
+    {
+      "name": "Biters",
+      "url": "https://biters.aqftrading.co.uk/",
+      "group": "Food & hospitality",
+      "env": "staging"
+    },
+    {
+      "name": "Smokey Yard",
+      "url": "https://smokeyyard.co.uk/",
+      "group": "Food & hospitality",
+      "env": "live"
+    },
+    {
+      "name": "JD Consortium",
+      "url": "https://jdconsortiumltd.uk/",
+      "group": "Home & construction",
+      "env": "live"
+    },
+    {
+      "name": "ABL Design & Build",
+      "url": "https://abldesignandbuild.co.uk/",
+      "group": "Home & construction",
+      "env": "live"
+    },
+    {
+      "name": "Union Windows",
+      "url": "https://unionwindows.co.uk/",
+      "group": "Home & construction",
+      "env": "live"
+    },
+    {
+      "name": "Elit Curtains",
+      "url": "https://elitcurtains.aqftrading.co.uk/",
+      "group": "Home & construction",
+      "env": "staging"
+    },
+    {
+      "name": "Global Link Consultants",
+      "url": "https://globallinkconsultants.uk/",
+      "group": "Business services",
+      "env": "live"
+    },
+    {
+      "name": "Nexus Mansfield",
+      "url": "https://nexusmansfield.com/",
+      "group": "Business services",
+      "env": "live"
+    },
+    {
+      "name": "The Tyres Egham",
+      "url": "https://thetyresegham.co.uk/",
+      "group": "Business services",
+      "env": "live"
+    },
+    {
+      "name": "Sm@rt Tech Hub",
+      "url": "https://smartechhub.tasneemkausar.com/",
+      "group": "Business services",
+      "env": "staging"
+    }
+  ]
+}
