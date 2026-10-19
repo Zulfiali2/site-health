@@ -1,0 +1,3366 @@
+{
+ "date": "2026-10-19",
+ "wpLatest": "7.1.3",
+ "sites": [
+  {
+   "name": "Ross McKinley",
+   "url": "https://rossmckinley.com/",
+   "group": "Accounting & finance",
+   "env": "live",
+   "id": "rossmckinley-com",
+   "score": 78,
+   "status": "attention",
+   "checks": {
+    "checked": "2026-10-19T09:19:40.315Z",
+    "https": true,
+    "up": true,
+    "status": 200,
+    "error": null,
+    "responseMs": 553,
+    "finalUrl": "https://rossmckinley.com/",
+    "httpsRedirect": true,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "Let's Encrypt",
+     "expires": "2027-01-07",
+     "daysLeft": 79
+    },
+    "domain": {
+     "ok": true,
+     "expires": "2027-12-20",
+     "daysLeft": 427,
+     "registrar": "Launchpad.com Inc."
+    },
+    "headers": {
+     "hsts": true,
+     "nosniff": true,
+     "frame": true,
+     "server": "Apache",
+     "poweredBy": null,
+     "cache": null
+    },
+    "php": null,
+    "page": {
+     "title": "Chartered Accountants in London | Ross McKinely",
+     "description": "Expert Local Chartered Accountants in London Offering Comprehensive Range of Accounting, Tax & Financial Services for Individuals & Businesses.",
+     "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+     "ogImage": false,
+     "canonical": true,
+     "viewport": true,
+     "lang": "en-GB",
+     "h1": 1,
+     "wordpress": "7.1.3",
+     "elementor": "4.3.5",
+     "woocommerce": null,
+     "images": 78,
+     "imagesNoAlt": 5,
+     "mixedContent": 0,
+     "bytes": 361403,
+     "linkCount": 22
+    },
+    "wordpress": "7.1.3",
+    "wordpressLatest": "7.1.3",
+    "security": {
+     "usersExposed": 1,
+     "xmlrpc": true,
+     "readme": true
+    },
+    "seo": {
+     "robotsTxt": true,
+     "sitemap": "sitemap_index.xml",
+     "blockedByRobots": false
+    },
+    "links": {
+     "checked": 22,
+     "broken": []
+    }
+   },
+   "lighthouse": {
+    "performance": 33,
+    "accessibility": 85,
+    "bestPractices": 96,
+    "seo": 85,
+    "lcp": "4.5 s",
+    "cls": "0.58",
+    "tbt": "620 ms",
+    "weightKB": 1665,
+    "topFix": [
+     "Eliminate render-blocking resources",
+     "Defer offscreen images",
+     "Initial server response time was short"
+    ]
+   },
+   "issues": [
+    {
+     "sev": "serious",
+     "key": "slow-mobile",
+     "title": "Very slow on mobile (speed 33/100)",
+     "fix": "Biggest wins: Eliminate render-blocking resources; Defer offscreen images; Initial server response time was short"
+    },
+    {
+     "sev": "warning",
+     "key": "users-exposed",
+     "title": "Admin usernames are publicly listed (/wp-json/wp/v2/users)",
+     "fix": "Block user enumeration with a security plugin (Wordfence, Solid Security)."
+    },
+    {
+     "sev": "info",
+     "key": "xmlrpc",
+     "title": "XML-RPC is enabled (common attack target)",
+     "fix": "Disable XML-RPC if Jetpack/apps don't need it."
+    },
+    {
+     "sev": "info",
+     "key": "readme",
+     "title": "readme.html reveals WordPress details",
+     "fix": "Delete /readme.html from the server."
+    }
+   ]
+  },
+  {
+   "name": "F&A Accountants",
+   "url": "https://faaccountants.com/",
+   "group": "Accounting & finance",
+   "env": "live",
+   "id": "faaccountants-com",
+   "score": 82,
+   "status": "attention",
+   "checks": {
+    "checked": "2026-10-19T09:19:40.316Z",
+    "https": true,
+    "up": true,
+    "status": 200,
+    "error": null,
+    "responseMs": 603,
+    "finalUrl": "https://faaccountants.com/",
+    "httpsRedirect": true,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "Let's Encrypt",
+     "expires": "2026-12-19",
+     "daysLeft": 60
+    },
+    "domain": {
+     "ok": true,
+     "expires": "2027-01-23",
+     "daysLeft": 95,
+     "registrar": "HOSTINGER operations, UAB"
+    },
+    "headers": {
+     "hsts": true,
+     "nosniff": true,
+     "frame": true,
+     "server": "hcdn",
+     "poweredBy": "PHP/8.3.35",
+     "cache": null
+    },
+    "php": "8.3.35",
+    "page": {
+     "title": "Home -",
+     "description": "Fast 24-Hour Fixed Proposal",
+     "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+     "ogImage": false,
+     "canonical": true,
+     "viewport": true,
+     "lang": "en-US",
+     "h1": 1,
+     "wordpress": "7.1.3",
+     "elementor": "4.3.5",
+     "woocommerce": null,
+     "images": 14,
+     "imagesNoAlt": 2,
+     "mixedContent": 0,
+     "bytes": 223875,
+     "linkCount": 15
+    },
+    "wordpress": "7.1.3",
+    "wordpressLatest": "7.1.3",
+    "security": {
+     "usersExposed": 0,
+     "xmlrpc": true,
+     "readme": true
+    },
+    "seo": {
+     "robotsTxt": true,
+     "sitemap": "sitemap_index.xml",
+     "blockedByRobots": false
+    },
+    "links": {
+     "checked": 15,
+     "broken": []
+    }
+   },
+   "lighthouse": {
+    "performance": 45,
+    "accessibility": 93,
+    "bestPractices": 75,
+    "seo": 100,
+    "lcp": "7.8 s",
+    "cls": "0.094",
+    "tbt": "810 ms",
+    "weightKB": 3346,
+    "topFix": [
+     "Initial server response time was short"
+    ]
+   },
+   "issues": [
+    {
+     "sev": "serious",
+     "key": "slow-mobile",
+     "title": "Very slow on mobile (speed 45/100)",
+     "fix": "Biggest wins: Initial server response time was short"
+    },
+    {
+     "sev": "info",
+     "key": "php-exposed",
+     "title": "Server reveals its PHP version",
+     "fix": "Hide the X-Powered-By header (expose_php = Off)."
+    },
+    {
+     "sev": "info",
+     "key": "xmlrpc",
+     "title": "XML-RPC is enabled (common attack target)",
+     "fix": "Disable XML-RPC if Jetpack/apps don't need it."
+    },
+    {
+     "sev": "info",
+     "key": "readme",
+     "title": "readme.html reveals WordPress details",
+     "fix": "Delete /readme.html from the server."
+    }
+   ]
+  },
+  {
+   "name": "Fiscal Focus Accountants",
+   "url": "https://fiscalfocusaccountantsltd.uk/",
+   "group": "Accounting & finance",
+   "env": "live",
+   "id": "fiscalfocusaccountantsltd-uk",
+   "score": 66,
+   "status": "attention",
+   "checks": {
+    "checked": "2026-10-19T09:19:40.317Z",
+    "https": true,
+    "up": true,
+    "status": 200,
+    "error": null,
+    "responseMs": 750,
+    "finalUrl": "https://fiscalfocusaccountantsltd.uk/",
+    "httpsRedirect": true,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "Let's Encrypt",
+     "expires": "2027-01-12",
+     "daysLeft": 84
+    },
+    "domain": {
+     "ok": true,
+     "expires": "2027-03-31",
+     "daysLeft": 163,
+     "registrar": "Register.com Inc t/a Network Solutions"
+    },
+    "headers": {
+     "hsts": false,
+     "nosniff": false,
+     "frame": false,
+     "server": "Apache",
+     "poweredBy": null,
+     "cache": null
+    },
+    "php": null,
+    "page": {
+     "title": null,
+     "description": null,
+     "robots": "max-image-preview:large",
+     "ogImage": false,
+     "canonical": true,
+     "viewport": true,
+     "lang": "en-US",
+     "h1": 0,
+     "wordpress": "7.1.3",
+     "elementor": "4.3.5",
+     "woocommerce": "yes",
+     "images": 21,
+     "imagesNoAlt": 21,
+     "mixedContent": 0,
+     "bytes": 269371,
+     "linkCount": 19
+    },
+    "wordpress": "7.1.3",
+    "wordpressLatest": "7.1.3",
+    "security": {
+     "usersExposed": 1,
+     "xmlrpc": true,
+     "readme": true
+    },
+    "seo": {
+     "robotsTxt": true,
+     "sitemap": "wp-sitemap.xml",
+     "blockedByRobots": false
+    },
+    "links": {
+     "checked": 19,
+     "broken": []
+    }
+   },
+   "lighthouse": {
+    "performance": 66,
+    "accessibility": 81,
+    "bestPractices": 96,
+    "seo": 77,
+    "lcp": "6.2 s",
+    "cls": "0.012",
+    "tbt": "240 ms",
+    "weightKB": 1196,
+    "topFix": [
+     "Serve images in next-gen formats",
+     "Eliminate render-blocking resources",
+     "Defer offscreen images"
+    ]
+   },
+   "issues": [
+    {
+     "sev": "warning",
+     "key": "no-title",
+     "title": "Homepage has no title tag",
+     "fix": "Set an SEO title in Yoast / Rank Math."
+    },
+    {
+     "sev": "warning",
+     "key": "no-description",
+     "title": "Homepage has no meta description",
+     "fix": "Write a 150–160 character description in the SEO plugin."
+    },
+    {
+     "sev": "warning",
+     "key": "no-h1",
+     "title": "Homepage has no H1 heading",
+     "fix": "Make the main hero heading an H1 in Elementor."
+    },
+    {
+     "sev": "warning",
+     "key": "users-exposed",
+     "title": "Admin usernames are publicly listed (/wp-json/wp/v2/users)",
+     "fix": "Block user enumeration with a security plugin (Wordfence, Solid Security)."
+    },
+    {
+     "sev": "warning",
+     "key": "slow-mobile",
+     "title": "Slow on mobile (speed 66/100)",
+     "fix": "Biggest wins: Serve images in next-gen formats; Eliminate render-blocking resources; Defer offscreen images"
+    },
+    {
+     "sev": "warning",
+     "key": "seo-score",
+     "title": "Google SEO checks score 77/100",
+     "fix": "Run Lighthouse → SEO and fix the listed items."
+    },
+    {
+     "sev": "info",
+     "key": "alt-text",
+     "title": "21 images have no alt text",
+     "fix": "Add alt text in the Media Library (helps SEO and accessibility)."
+    },
+    {
+     "sev": "info",
+     "key": "xmlrpc",
+     "title": "XML-RPC is enabled (common attack target)",
+     "fix": "Disable XML-RPC if Jetpack/apps don't need it."
+    },
+    {
+     "sev": "info",
+     "key": "readme",
+     "title": "readme.html reveals WordPress details",
+     "fix": "Delete /readme.html from the server."
+    },
+    {
+     "sev": "info",
+     "key": "no-hsts",
+     "title": "No HSTS security header",
+     "fix": "Add Strict-Transport-Security via the host or a headers plugin."
+    }
+   ]
+  },
+  {
+   "name": "White Weaver Accountants",
+   "url": "https://whiteweaveraccountants.com/",
+   "group": "Accounting & finance",
+   "env": "live",
+   "id": "whiteweaveraccountants-com",
+   "score": 86,
+   "status": "healthy",
+   "checks": {
+    "checked": "2026-10-19T09:19:40.318Z",
+    "https": true,
+    "up": true,
+    "status": 200,
+    "error": null,
+    "responseMs": 2260,
+    "finalUrl": "https://whiteweaveraccountants.com/",
+    "httpsRedirect": true,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "Let's Encrypt",
+     "expires": "2027-01-09",
+     "daysLeft": 81
+    },
+    "domain": {
+     "ok": true,
+     "expires": "2027-02-13",
+     "daysLeft": 116,
+     "registrar": "HOSTINGER operations, UAB"
+    },
+    "headers": {
+     "hsts": true,
+     "nosniff": true,
+     "frame": true,
+     "server": "hcdn",
+     "poweredBy": "PHP/8.3.35",
+     "cache": null
+    },
+    "php": "8.3.35",
+    "page": {
+     "title": "Accountants for Construction Companies – CIS, VAT & Tax",
+     "description": "Specialist accountants for construction companies. CIS returns, reverse charge VAT, tax planning & management accounts. Free fixed quote in 48 hours.",
+     "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+     "ogImage": false,
+     "canonical": true,
+     "viewport": true,
+     "lang": "en-US",
+     "h1": 1,
+     "wordpress": "7.1.3",
+     "elementor": "4.3.5",
+     "woocommerce": "yes",
+     "images": 21,
+     "imagesNoAlt": 6,
+     "mixedContent": 0,
+     "bytes": 402231,
+     "linkCount": 26
+    },
+    "wordpress": "7.1.3",
+    "wordpressLatest": "7.1.3",
+    "security": {
+     "usersExposed": 0,
+     "xmlrpc": true,
+     "readme": true
+    },
+    "seo": {
+     "robotsTxt": true,
+     "sitemap": "sitemap_index.xml",
+     "blockedByRobots": false
+    },
+    "links": {
+     "checked": 26,
+     "broken": [
+      {
+       "url": "https://whiteweaveraccountants.com/services/",
+       "status": 500,
+       "error": null
+      },
+      {
+       "url": "https://whiteweaveraccountants.com/cis-returns-cis-accounting/",
+       "status": 500,
+       "error": null
+      }
+     ]
+    }
+   },
+   "lighthouse": {
+    "performance": 54,
+    "accessibility": 86,
+    "bestPractices": 75,
+    "seo": 100,
+    "lcp": "6.7 s",
+    "cls": "0.03",
+    "tbt": "640 ms",
+    "weightKB": 1414,
+    "topFix": [
+     "Eliminate render-blocking resources",
+     "Initial server response time was short"
+    ]
+   },
+   "issues": [
+    {
+     "sev": "warning",
+     "key": "broken-links",
+     "title": "2 broken link(s) on the homepage",
+     "fix": "Fix or remove: /services/, /cis-returns-cis-accounting/"
+    },
+    {
+     "sev": "warning",
+     "key": "slow-mobile",
+     "title": "Slow on mobile (speed 54/100)",
+     "fix": "Biggest wins: Eliminate render-blocking resources; Initial server response time was short"
+    },
+    {
+     "sev": "info",
+     "key": "alt-text",
+     "title": "6 images have no alt text",
+     "fix": "Add alt text in the Media Library (helps SEO and accessibility)."
+    },
+    {
+     "sev": "info",
+     "key": "php-exposed",
+     "title": "Server reveals its PHP version",
+     "fix": "Hide the X-Powered-By header (expose_php = Off)."
+    },
+    {
+     "sev": "info",
+     "key": "xmlrpc",
+     "title": "XML-RPC is enabled (common attack target)",
+     "fix": "Disable XML-RPC if Jetpack/apps don't need it."
+    },
+    {
+     "sev": "info",
+     "key": "readme",
+     "title": "readme.html reveals WordPress details",
+     "fix": "Delete /readme.html from the server."
+    }
+   ]
+  },
+  {
+   "name": "White Weaver (staging)",
+   "url": "https://whiteweaver.aqftrading.co.uk/",
+   "group": "Accounting & finance",
+   "env": "staging",
+   "id": "whiteweaver-aqftrading-co-uk",
+   "score": 60,
+   "status": "critical",
+   "checks": {
+    "checked": "2026-10-19T09:19:43.534Z",
+    "https": true,
+    "up": false,
+    "status": 503,
+    "error": null,
+    "responseMs": 373,
+    "finalUrl": "https://whiteweaver.aqftrading.co.uk/",
+    "httpsRedirect": false,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "Let's Encrypt",
+     "expires": "2026-12-13",
+     "daysLeft": 55
+    },
+    "domain": {
+     "ok": true,
+     "expires": "2026-12-12",
+     "daysLeft": 53,
+     "registrar": "Register.com Inc t/a Network Solutions"
+    }
+   },
+   "lighthouse": null,
+   "issues": [
+    {
+     "sev": "critical",
+     "key": "down",
+     "title": "Site returns an error (HTTP 503)",
+     "fix": "Check the hosting account, DNS and server error logs."
+    }
+   ]
+  },
+  {
+   "name": "MedTax Advisors",
+   "url": "https://medtaxadvisors.co.uk/",
+   "group": "Accounting & finance",
+   "env": "live",
+   "id": "medtaxadvisors-co-uk",
+   "score": 87,
+   "status": "healthy",
+   "checks": {
+    "checked": "2026-10-19T09:19:44.140Z",
+    "https": true,
+    "up": true,
+    "status": 200,
+    "error": null,
+    "responseMs": 891,
+    "finalUrl": "https://medtaxadvisors.co.uk/",
+    "httpsRedirect": true,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "Let's Encrypt",
+     "expires": "2026-11-30",
+     "daysLeft": 41
+    },
+    "domain": {
+     "ok": true,
+     "expires": "2027-04-16",
+     "daysLeft": 179,
+     "registrar": "Register.com Inc t/a Network Solutions"
+    },
+    "headers": {
+     "hsts": true,
+     "nosniff": true,
+     "frame": true,
+     "server": "Apache",
+     "poweredBy": null,
+     "cache": null
+    },
+    "php": null,
+    "page": {
+     "title": "Medical Accountants UK | Specialist Accountants for Doctors",
+     "description": "Medical Accountants UK helping doctors, GPs, clinics, and healthcare professionals reduce tax, stay compliant, and grow with expert advice.",
+     "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+     "ogImage": false,
+     "canonical": true,
+     "viewport": true,
+     "lang": "en-US",
+     "h1": 0,
+     "wordpress": "7.1.3",
+     "elementor": "4.3.5",
+     "woocommerce": "yes",
+     "images": 26,
+     "imagesNoAlt": 26,
+     "mixedContent": 0,
+     "bytes": 287789,
+     "linkCount": 19
+    },
+    "wordpress": "7.1.3",
+    "wordpressLatest": "7.1.3",
+    "security": {
+     "usersExposed": 1,
+     "xmlrpc": true,
+     "readme": true
+    },
+    "seo": {
+     "robotsTxt": true,
+     "sitemap": "sitemap_index.xml",
+     "blockedByRobots": false
+    },
+    "links": {
+     "checked": 19,
+     "broken": []
+    }
+   },
+   "lighthouse": {
+    "performance": 70,
+    "accessibility": 89,
+    "bestPractices": 100,
+    "seo": 92,
+    "lcp": "6.3 s",
+    "cls": "0.018",
+    "tbt": "100 ms",
+    "weightKB": 776,
+    "topFix": [
+     "Eliminate render-blocking resources",
+     "Serve images in next-gen formats",
+     "Initial server response time was short"
+    ]
+   },
+   "issues": [
+    {
+     "sev": "warning",
+     "key": "no-h1",
+     "title": "Homepage has no H1 heading",
+     "fix": "Make the main hero heading an H1 in Elementor."
+    },
+    {
+     "sev": "warning",
+     "key": "users-exposed",
+     "title": "Admin usernames are publicly listed (/wp-json/wp/v2/users)",
+     "fix": "Block user enumeration with a security plugin (Wordfence, Solid Security)."
+    },
+    {
+     "sev": "info",
+     "key": "alt-text",
+     "title": "26 images have no alt text",
+     "fix": "Add alt text in the Media Library (helps SEO and accessibility)."
+    },
+    {
+     "sev": "info",
+     "key": "xmlrpc",
+     "title": "XML-RPC is enabled (common attack target)",
+     "fix": "Disable XML-RPC if Jetpack/apps don't need it."
+    },
+    {
+     "sev": "info",
+     "key": "readme",
+     "title": "readme.html reveals WordPress details",
+     "fix": "Delete /readme.html from the server."
+    }
+   ]
+  },
+  {
+   "name": "Pacific Horizon",
+   "url": "https://pacifichorizon.ae/",
+   "group": "Accounting & finance",
+   "env": "live",
+   "id": "pacifichorizon-ae",
+   "score": 68,
+   "status": "attention",
+   "checks": {
+    "checked": "2026-10-19T09:19:44.172Z",
+    "https": true,
+    "up": true,
+    "status": 200,
+    "error": null,
+    "responseMs": 752,
+    "finalUrl": "https://pacifichorizon.ae/",
+    "httpsRedirect": true,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "Let's Encrypt",
+     "expires": "2026-11-30",
+     "daysLeft": 41
+    },
+    "domain": {
+     "ok": false,
+     "error": "HTTP 404"
+    },
+    "headers": {
+     "hsts": true,
+     "nosniff": true,
+     "frame": true,
+     "server": "Apache",
+     "poweredBy": null,
+     "cache": null
+    },
+    "php": null,
+    "page": {
+     "title": "Business Setup Consultants in UAE | Get A Free Quote",
+     "description": "Launch your business with trusted Business Setup Consultants in UAE. Expert company formation, PRO, tax, licensing, and accounting solutions.",
+     "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+     "ogImage": false,
+     "canonical": true,
+     "viewport": true,
+     "lang": "en-US",
+     "h1": 1,
+     "wordpress": "7.1.3",
+     "elementor": "4.3.5",
+     "woocommerce": null,
+     "images": 3,
+     "imagesNoAlt": 3,
+     "mixedContent": 0,
+     "bytes": 157752,
+     "linkCount": 44
+    },
+    "wordpress": "7.1.3",
+    "wordpressLatest": "7.1.3",
+    "security": {
+     "usersExposed": 1,
+     "xmlrpc": true,
+     "readme": true
+    },
+    "seo": {
+     "robotsTxt": true,
+     "sitemap": null,
+     "blockedByRobots": false
+    },
+    "links": {
+     "checked": 40,
+     "broken": [
+      {
+       "url": "https://pacifichorizon.ae/?page_id=3152",
+       "status": 404,
+       "error": null
+      },
+      {
+       "url": "https://pacifichorizon.ae/?page_id=3157",
+       "status": 404,
+       "error": null
+      }
+     ]
+    }
+   },
+   "lighthouse": {
+    "performance": 49,
+    "accessibility": 93,
+    "bestPractices": 75,
+    "seo": 100,
+    "lcp": "10.5 s",
+    "cls": "0",
+    "tbt": "930 ms",
+    "weightKB": 2642,
+    "topFix": [
+     "Serve images in next-gen formats",
+     "Efficiently encode images",
+     "Reduce unused JavaScript"
+    ]
+   },
+   "issues": [
+    {
+     "sev": "serious",
+     "key": "slow-mobile",
+     "title": "Very slow on mobile (speed 49/100)",
+     "fix": "Biggest wins: Serve images in next-gen formats; Efficiently encode images; Reduce unused JavaScript"
+    },
+    {
+     "sev": "warning",
+     "key": "no-sitemap",
+     "title": "No XML sitemap found",
+     "fix": "Enable the sitemap in Yoast / Rank Math and submit it to Search Console."
+    },
+    {
+     "sev": "warning",
+     "key": "broken-links",
+     "title": "2 broken link(s) on the homepage",
+     "fix": "Fix or remove: /, /"
+    },
+    {
+     "sev": "warning",
+     "key": "users-exposed",
+     "title": "Admin usernames are publicly listed (/wp-json/wp/v2/users)",
+     "fix": "Block user enumeration with a security plugin (Wordfence, Solid Security)."
+    },
+    {
+     "sev": "info",
+     "key": "xmlrpc",
+     "title": "XML-RPC is enabled (common attack target)",
+     "fix": "Disable XML-RPC if Jetpack/apps don't need it."
+    },
+    {
+     "sev": "info",
+     "key": "readme",
+     "title": "readme.html reveals WordPress details",
+     "fix": "Delete /readme.html from the server."
+    }
+   ]
+  },
+  {
+   "name": "AQF Trading",
+   "url": "https://www.aqftrading.co.uk/",
+   "group": "Accounting & finance",
+   "env": "live",
+   "id": "aqftrading-co-uk",
+   "score": 73,
+   "status": "attention",
+   "checks": {
+    "checked": "2026-10-19T09:19:45.054Z",
+    "https": true,
+    "up": true,
+    "status": 200,
+    "error": null,
+    "responseMs": 647,
+    "finalUrl": "https://www.aqftrading.co.uk/",
+    "httpsRedirect": false,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "Let's Encrypt",
+     "expires": "2026-11-30",
+     "daysLeft": 41
+    },
+    "domain": {
+     "ok": true,
+     "expires": "2026-12-12",
+     "daysLeft": 53,
+     "registrar": "Register.com Inc t/a Network Solutions"
+    },
+    "headers": {
+     "hsts": false,
+     "nosniff": false,
+     "frame": false,
+     "server": "Apache",
+     "poweredBy": null,
+     "cache": null
+    },
+    "php": null,
+    "page": {
+     "title": "AQF Marketing — Turn Clicks into Customers",
+     "description": "UK-based digital growth agency helping brands grow, sell and scale online through social media, TikTok Shop, SEO and high-converting websites.",
+     "robots": null,
+     "ogImage": true,
+     "canonical": false,
+     "viewport": true,
+     "lang": "en",
+     "h1": 1,
+     "wordpress": null,
+     "elementor": null,
+     "woocommerce": null,
+     "images": 47,
+     "imagesNoAlt": 6,
+     "mixedContent": 0,
+     "bytes": 41011,
+     "linkCount": 1
+    },
+    "wordpress": null,
+    "wordpressLatest": "7.1.3",
+    "security": {
+     "usersExposed": 0,
+     "xmlrpc": false,
+     "readme": false
+    },
+    "seo": {
+     "robotsTxt": false,
+     "sitemap": null,
+     "blockedByRobots": false
+    },
+    "links": {
+     "checked": 1,
+     "broken": []
+    }
+   },
+   "lighthouse": {
+    "performance": 66,
+    "accessibility": 91,
+    "bestPractices": 96,
+    "seo": 100,
+    "lcp": "10.9 s",
+    "cls": "0",
+    "tbt": "20 ms",
+    "weightKB": 64832,
+    "topFix": [
+     "Eliminate render-blocking resources"
+    ]
+   },
+   "issues": [
+    {
+     "sev": "serious",
+     "key": "no-https-redirect",
+     "title": "http:// does not redirect to https://",
+     "fix": "Force HTTPS in the hosting panel or Really Simple SSL."
+    },
+    {
+     "sev": "warning",
+     "key": "no-sitemap",
+     "title": "No XML sitemap found",
+     "fix": "Enable the sitemap in Yoast / Rank Math and submit it to Search Console."
+    },
+    {
+     "sev": "warning",
+     "key": "slow-mobile",
+     "title": "Slow on mobile (speed 66/100)",
+     "fix": "Biggest wins: Eliminate render-blocking resources"
+    },
+    {
+     "sev": "info",
+     "key": "alt-text",
+     "title": "6 images have no alt text",
+     "fix": "Add alt text in the Media Library (helps SEO and accessibility)."
+    },
+    {
+     "sev": "info",
+     "key": "no-hsts",
+     "title": "No HSTS security header",
+     "fix": "Add Strict-Transport-Security via the host or a headers plugin."
+    }
+   ]
+  },
+  {
+   "name": "Cubeline London",
+   "url": "https://cubelinelondonltd.co.uk/",
+   "group": "Fashion & e-commerce",
+   "env": "live",
+   "id": "cubelinelondonltd-co-uk",
+   "score": 71,
+   "status": "attention",
+   "checks": {
+    "checked": "2026-10-19T09:19:45.679Z",
+    "https": true,
+    "up": true,
+    "status": 200,
+    "error": null,
+    "responseMs": 537,
+    "finalUrl": "https://cubelinelondonltd.co.uk/",
+    "httpsRedirect": true,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "Let's Encrypt",
+     "expires": "2026-12-17",
+     "daysLeft": 58
+    },
+    "domain": {
+     "ok": true,
+     "expires": "2027-01-21",
+     "daysLeft": 94,
+     "registrar": "Realtime Register BV t/a Axidomains"
+    },
+    "headers": {
+     "hsts": true,
+     "nosniff": true,
+     "frame": true,
+     "server": "hcdn",
+     "poweredBy": "PHP/8.3.35",
+     "cache": null
+    },
+    "php": "8.3.35",
+    "page": {
+     "title": null,
+     "description": null,
+     "robots": "max-image-preview:large",
+     "ogImage": false,
+     "canonical": true,
+     "viewport": true,
+     "lang": "en-US",
+     "h1": 0,
+     "wordpress": "7.1.3",
+     "elementor": "4.3.5",
+     "woocommerce": "11.2.1",
+     "images": 31,
+     "imagesNoAlt": 31,
+     "mixedContent": 0,
+     "bytes": 320035,
+     "linkCount": 20
+    },
+    "wordpress": "7.1.3",
+    "wordpressLatest": "7.1.3",
+    "security": {
+     "usersExposed": 1,
+     "xmlrpc": true,
+     "readme": true
+    },
+    "seo": {
+     "robotsTxt": true,
+     "sitemap": "wp-sitemap.xml",
+     "blockedByRobots": false
+    },
+    "links": {
+     "checked": 20,
+     "broken": []
+    }
+   },
+   "lighthouse": {
+    "performance": 71,
+    "accessibility": 86,
+    "bestPractices": 96,
+    "seo": 77,
+    "lcp": "5.4 s",
+    "cls": "0.002",
+    "tbt": "170 ms",
+    "weightKB": 590,
+    "topFix": [
+     "Eliminate render-blocking resources",
+     "Initial server response time was short"
+    ]
+   },
+   "issues": [
+    {
+     "sev": "warning",
+     "key": "no-title",
+     "title": "Homepage has no title tag",
+     "fix": "Set an SEO title in Yoast / Rank Math."
+    },
+    {
+     "sev": "warning",
+     "key": "no-description",
+     "title": "Homepage has no meta description",
+     "fix": "Write a 150–160 character description in the SEO plugin."
+    },
+    {
+     "sev": "warning",
+     "key": "no-h1",
+     "title": "Homepage has no H1 heading",
+     "fix": "Make the main hero heading an H1 in Elementor."
+    },
+    {
+     "sev": "warning",
+     "key": "users-exposed",
+     "title": "Admin usernames are publicly listed (/wp-json/wp/v2/users)",
+     "fix": "Block user enumeration with a security plugin (Wordfence, Solid Security)."
+    },
+    {
+     "sev": "warning",
+     "key": "seo-score",
+     "title": "Google SEO checks score 77/100",
+     "fix": "Run Lighthouse → SEO and fix the listed items."
+    },
+    {
+     "sev": "info",
+     "key": "alt-text",
+     "title": "31 images have no alt text",
+     "fix": "Add alt text in the Media Library (helps SEO and accessibility)."
+    },
+    {
+     "sev": "info",
+     "key": "php-exposed",
+     "title": "Server reveals its PHP version",
+     "fix": "Hide the X-Powered-By header (expose_php = Off)."
+    },
+    {
+     "sev": "info",
+     "key": "xmlrpc",
+     "title": "XML-RPC is enabled (common attack target)",
+     "fix": "Disable XML-RPC if Jetpack/apps don't need it."
+    },
+    {
+     "sev": "info",
+     "key": "readme",
+     "title": "readme.html reveals WordPress details",
+     "fix": "Delete /readme.html from the server."
+    }
+   ]
+  },
+  {
+   "name": "Glory Fashion",
+   "url": "https://gloryfashion.co.uk/",
+   "group": "Fashion & e-commerce",
+   "env": "live",
+   "id": "gloryfashion-co-uk",
+   "score": 65,
+   "status": "attention",
+   "checks": {
+    "checked": "2026-10-19T09:19:46.826Z",
+    "https": true,
+    "up": true,
+    "status": 200,
+    "error": null,
+    "responseMs": 1374,
+    "finalUrl": "https://gloryfashion.co.uk/",
+    "httpsRedirect": true,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "Let's Encrypt",
+     "expires": "2026-11-21",
+     "daysLeft": 33
+    },
+    "domain": {
+     "ok": true,
+     "expires": "2027-06-24",
+     "daysLeft": 248,
+     "registrar": "Register.com Inc t/a Network Solutions"
+    },
+    "headers": {
+     "hsts": true,
+     "nosniff": true,
+     "frame": true,
+     "server": "hcdn",
+     "poweredBy": "PHP/8.3.35",
+     "cache": null
+    },
+    "php": "8.3.35",
+    "page": {
+     "title": "Fashion and Clothing Website",
+     "description": null,
+     "robots": "max-image-preview:large",
+     "ogImage": false,
+     "canonical": true,
+     "viewport": true,
+     "lang": "en-US",
+     "h1": 5,
+     "wordpress": "7.1.3",
+     "elementor": "4.3.5",
+     "woocommerce": "yes",
+     "images": 29,
+     "imagesNoAlt": 9,
+     "mixedContent": 0,
+     "bytes": 190025,
+     "linkCount": 9
+    },
+    "wordpress": "7.1.3",
+    "wordpressLatest": "7.1.3",
+    "security": {
+     "usersExposed": 1,
+     "xmlrpc": true,
+     "readme": true
+    },
+    "seo": {
+     "robotsTxt": true,
+     "sitemap": "wp-sitemap.xml",
+     "blockedByRobots": false
+    },
+    "links": {
+     "checked": 9,
+     "broken": [
+      {
+       "url": "https://gloryfashion.co.uk/",
+       "status": 500,
+       "error": null
+      },
+      {
+       "url": "https://gloryfashion.co.uk/unstitched-fabric-collection/",
+       "status": 500,
+       "error": null
+      },
+      {
+       "url": "https://gloryfashion.co.uk/about/",
+       "status": 500,
+       "error": null
+      },
+      {
+       "url": "https://gloryfashion.co.uk/faq/",
+       "status": 500,
+       "error": null
+      }
+     ]
+    }
+   },
+   "lighthouse": {
+    "performance": 55,
+    "accessibility": 83,
+    "bestPractices": 100,
+    "seo": 92,
+    "lcp": "8.7 s",
+    "cls": "0.003",
+    "tbt": "520 ms",
+    "weightKB": 3845,
+    "topFix": [
+     "Properly size images",
+     "Initial server response time was short",
+     "Eliminate render-blocking resources"
+    ]
+   },
+   "issues": [
+    {
+     "sev": "serious",
+     "key": "broken-links",
+     "title": "4 broken link(s) on the homepage",
+     "fix": "Fix or remove: /, /unstitched-fabric-collection/, /about/"
+    },
+    {
+     "sev": "warning",
+     "key": "no-description",
+     "title": "Homepage has no meta description",
+     "fix": "Write a 150–160 character description in the SEO plugin."
+    },
+    {
+     "sev": "warning",
+     "key": "users-exposed",
+     "title": "Admin usernames are publicly listed (/wp-json/wp/v2/users)",
+     "fix": "Block user enumeration with a security plugin (Wordfence, Solid Security)."
+    },
+    {
+     "sev": "warning",
+     "key": "slow-mobile",
+     "title": "Slow on mobile (speed 55/100)",
+     "fix": "Biggest wins: Properly size images; Initial server response time was short; Eliminate render-blocking resources"
+    },
+    {
+     "sev": "info",
+     "key": "many-h1",
+     "title": "Homepage has 5 H1 headings",
+     "fix": "Keep one H1; change the others to H2."
+    },
+    {
+     "sev": "info",
+     "key": "alt-text",
+     "title": "9 images have no alt text",
+     "fix": "Add alt text in the Media Library (helps SEO and accessibility)."
+    },
+    {
+     "sev": "info",
+     "key": "php-exposed",
+     "title": "Server reveals its PHP version",
+     "fix": "Hide the X-Powered-By header (expose_php = Off)."
+    },
+    {
+     "sev": "info",
+     "key": "xmlrpc",
+     "title": "XML-RPC is enabled (common attack target)",
+     "fix": "Disable XML-RPC if Jetpack/apps don't need it."
+    },
+    {
+     "sev": "info",
+     "key": "readme",
+     "title": "readme.html reveals WordPress details",
+     "fix": "Delete /readme.html from the server."
+    }
+   ]
+  },
+  {
+   "name": "Naseer Garments",
+   "url": "https://naseergarments.com/",
+   "group": "Fashion & e-commerce",
+   "env": "live",
+   "id": "naseergarments-com",
+   "score": 46,
+   "status": "critical",
+   "checks": {
+    "checked": "2026-10-19T09:19:48.404Z",
+    "https": true,
+    "up": true,
+    "status": 200,
+    "error": null,
+    "responseMs": 156,
+    "finalUrl": "https://naseergarments.com/",
+    "httpsRedirect": true,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "Let's Encrypt",
+     "expires": "2026-12-02",
+     "daysLeft": 44
+    },
+    "domain": {
+     "ok": true,
+     "expires": "2027-09-30",
+     "daysLeft": 346,
+     "registrar": "HOSTINGER operations, UAB"
+    },
+    "headers": {
+     "hsts": true,
+     "nosniff": true,
+     "frame": true,
+     "server": "hcdn",
+     "poweredBy": "PHP/8.2.34",
+     "cache": "hit"
+    },
+    "php": "8.2.34",
+    "page": {
+     "title": "Naseer Readymade Garments – Uniforms, Apparels and Safety Equipment",
+     "description": null,
+     "robots": "noindex, nofollow",
+     "ogImage": false,
+     "canonical": true,
+     "viewport": true,
+     "lang": "en-US",
+     "h1": 1,
+     "wordpress": "hidden",
+     "elementor": null,
+     "woocommerce": null,
+     "images": 11,
+     "imagesNoAlt": 11,
+     "mixedContent": 0,
+     "bytes": 125072,
+     "linkCount": 13
+    },
+    "wordpress": "hidden",
+    "wordpressLatest": "7.1.3",
+    "security": {
+     "usersExposed": 0,
+     "xmlrpc": true,
+     "readme": true
+    },
+    "seo": {
+     "robotsTxt": true,
+     "sitemap": "sitemap.xml",
+     "blockedByRobots": false
+    },
+    "links": {
+     "checked": 13,
+     "broken": []
+    }
+   },
+   "lighthouse": {
+    "performance": 85,
+    "accessibility": 91,
+    "bestPractices": 96,
+    "seo": 54,
+    "lcp": "3.5 s",
+    "cls": "0.027",
+    "tbt": "0 ms",
+    "weightKB": 374,
+    "topFix": [
+     "Eliminate render-blocking resources"
+    ]
+   },
+   "issues": [
+    {
+     "sev": "critical",
+     "key": "noindex",
+     "title": "Live site is hidden from Google (noindex)",
+     "fix": "Settings → Reading → untick 'Discourage search engines'."
+    },
+    {
+     "sev": "warning",
+     "key": "no-description",
+     "title": "Homepage has no meta description",
+     "fix": "Write a 150–160 character description in the SEO plugin."
+    },
+    {
+     "sev": "warning",
+     "key": "seo-score",
+     "title": "Google SEO checks score 54/100",
+     "fix": "Run Lighthouse → SEO and fix the listed items."
+    },
+    {
+     "sev": "info",
+     "key": "alt-text",
+     "title": "11 images have no alt text",
+     "fix": "Add alt text in the Media Library (helps SEO and accessibility)."
+    },
+    {
+     "sev": "info",
+     "key": "php-exposed",
+     "title": "Server reveals its PHP version",
+     "fix": "Hide the X-Powered-By header (expose_php = Off)."
+    },
+    {
+     "sev": "info",
+     "key": "xmlrpc",
+     "title": "XML-RPC is enabled (common attack target)",
+     "fix": "Disable XML-RPC if Jetpack/apps don't need it."
+    },
+    {
+     "sev": "info",
+     "key": "readme",
+     "title": "readme.html reveals WordPress details",
+     "fix": "Delete /readme.html from the server."
+    }
+   ]
+  },
+  {
+   "name": "Silver Victory Fashion",
+   "url": "https://silvervictoryfashion.com/",
+   "group": "Fashion & e-commerce",
+   "env": "live",
+   "id": "silvervictoryfashion-com",
+   "score": 57,
+   "status": "attention",
+   "checks": {
+    "checked": "2026-10-19T09:19:49.666Z",
+    "https": true,
+    "up": true,
+    "status": 200,
+    "error": null,
+    "responseMs": 518,
+    "finalUrl": "https://silvervictoryfashion.com/",
+    "httpsRedirect": false,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "Let's Encrypt",
+     "expires": "2026-12-14",
+     "daysLeft": 56
+    },
+    "domain": {
+     "ok": true,
+     "expires": "2027-09-15",
+     "daysLeft": 331,
+     "registrar": "Network Solutions, LLC"
+    },
+    "headers": {
+     "hsts": true,
+     "nosniff": true,
+     "frame": true,
+     "server": "Apache",
+     "poweredBy": null,
+     "cache": null
+    },
+    "php": null,
+    "page": {
+     "title": "silverfashion",
+     "description": null,
+     "robots": "max-image-preview:large",
+     "ogImage": false,
+     "canonical": true,
+     "viewport": true,
+     "lang": "en-US",
+     "h1": 0,
+     "wordpress": "7.1.3",
+     "elementor": "4.3.5",
+     "woocommerce": "yes",
+     "images": 89,
+     "imagesNoAlt": 7,
+     "mixedContent": 99,
+     "bytes": 302748,
+     "linkCount": 10
+    },
+    "wordpress": "7.1.3",
+    "wordpressLatest": "7.1.3",
+    "security": {
+     "usersExposed": 1,
+     "xmlrpc": true,
+     "readme": true
+    },
+    "seo": {
+     "robotsTxt": true,
+     "sitemap": "wp-sitemap.xml",
+     "blockedByRobots": false
+    },
+    "links": {
+     "checked": 10,
+     "broken": []
+    }
+   },
+   "lighthouse": {
+    "performance": 63,
+    "accessibility": 82,
+    "bestPractices": 96,
+    "seo": 85,
+    "lcp": "40.5 s",
+    "cls": "0.01",
+    "tbt": "0 ms",
+    "weightKB": 53226,
+    "topFix": [
+     "Eliminate render-blocking resources",
+     "Serve images in next-gen formats"
+    ]
+   },
+   "issues": [
+    {
+     "sev": "serious",
+     "key": "no-https-redirect",
+     "title": "http:// does not redirect to https://",
+     "fix": "Force HTTPS in the hosting panel or Really Simple SSL."
+    },
+    {
+     "sev": "warning",
+     "key": "no-description",
+     "title": "Homepage has no meta description",
+     "fix": "Write a 150–160 character description in the SEO plugin."
+    },
+    {
+     "sev": "warning",
+     "key": "no-h1",
+     "title": "Homepage has no H1 heading",
+     "fix": "Make the main hero heading an H1 in Elementor."
+    },
+    {
+     "sev": "warning",
+     "key": "mixed-content",
+     "title": "99 item(s) load over insecure http://",
+     "fix": "Update the URLs to https:// (Better Search Replace)."
+    },
+    {
+     "sev": "warning",
+     "key": "users-exposed",
+     "title": "Admin usernames are publicly listed (/wp-json/wp/v2/users)",
+     "fix": "Block user enumeration with a security plugin (Wordfence, Solid Security)."
+    },
+    {
+     "sev": "warning",
+     "key": "slow-mobile",
+     "title": "Slow on mobile (speed 63/100)",
+     "fix": "Biggest wins: Eliminate render-blocking resources; Serve images in next-gen formats"
+    },
+    {
+     "sev": "info",
+     "key": "alt-text",
+     "title": "7 images have no alt text",
+     "fix": "Add alt text in the Media Library (helps SEO and accessibility)."
+    },
+    {
+     "sev": "info",
+     "key": "xmlrpc",
+     "title": "XML-RPC is enabled (common attack target)",
+     "fix": "Disable XML-RPC if Jetpack/apps don't need it."
+    },
+    {
+     "sev": "info",
+     "key": "readme",
+     "title": "readme.html reveals WordPress details",
+     "fix": "Delete /readme.html from the server."
+    }
+   ]
+  },
+  {
+   "name": "Ayura Holistic Wellness",
+   "url": "https://ayuraholisticwellness.co.uk/",
+   "group": "Beauty & wellness",
+   "env": "live",
+   "id": "ayuraholisticwellness-co-uk",
+   "score": 41,
+   "status": "attention",
+   "checks": {
+    "checked": "2026-10-19T09:19:51.020Z",
+    "https": true,
+    "up": true,
+    "status": 200,
+    "error": null,
+    "responseMs": 894,
+    "finalUrl": "https://ayuraholisticwellness.co.uk/",
+    "httpsRedirect": true,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "Let's Encrypt",
+     "expires": "2026-12-02",
+     "daysLeft": 43
+    },
+    "domain": {
+     "ok": true,
+     "expires": "2027-04-23",
+     "daysLeft": 186,
+     "registrar": "Register.com Inc t/a Network Solutions"
+    },
+    "headers": {
+     "hsts": true,
+     "nosniff": true,
+     "frame": true,
+     "server": "Apache",
+     "poweredBy": null,
+     "cache": null
+    },
+    "php": null,
+    "page": {
+     "title": null,
+     "description": null,
+     "robots": "max-image-preview:large",
+     "ogImage": false,
+     "canonical": true,
+     "viewport": true,
+     "lang": "en-US",
+     "h1": 0,
+     "wordpress": "7.1.3",
+     "elementor": "4.3.5",
+     "woocommerce": "11.2.1",
+     "images": 24,
+     "imagesNoAlt": 20,
+     "mixedContent": 0,
+     "bytes": 264162,
+     "linkCount": 11
+    },
+    "wordpress": "7.1.3",
+    "wordpressLatest": "7.1.3",
+    "security": {
+     "usersExposed": 1,
+     "xmlrpc": true,
+     "readme": true
+    },
+    "seo": {
+     "robotsTxt": true,
+     "sitemap": "wp-sitemap.xml",
+     "blockedByRobots": false
+    },
+    "links": {
+     "checked": 11,
+     "broken": [
+      {
+       "url": "https://ayuraholisticwellness.co.uk/faqs/",
+       "status": null,
+       "error": "UND_ERR_CONNECT_TIMEOUT"
+      },
+      {
+       "url": "https://ayuraholisticwellness.co.uk/cart/",
+       "status": null,
+       "error": "UND_ERR_CONNECT_TIMEOUT"
+      },
+      {
+       "url": "https://ayuraholisticwellness.co.uk/privacy-policy/",
+       "status": null,
+       "error": "UND_ERR_CONNECT_TIMEOUT"
+      },
+      {
+       "url": "https://ayuraholisticwellness.co.uk/disclaimer/",
+       "status": null,
+       "error": "UND_ERR_CONNECT_TIMEOUT"
+      },
+      {
+       "url": "https://ayuraholisticwellness.co.uk/terms-conditions/",
+       "status": null,
+       "error": "UND_ERR_CONNECT_TIMEOUT"
+      },
+      {
+       "url": "https://ayuraholisticwellness.co.uk/refund_returns/",
+       "status": null,
+       "error": "UND_ERR_CONNECT_TIMEOUT"
+      }
+     ]
+    }
+   },
+   "lighthouse": {
+    "performance": 47,
+    "accessibility": 76,
+    "bestPractices": 100,
+    "seo": 77,
+    "lcp": "19.1 s",
+    "cls": "0.05",
+    "tbt": "490 ms",
+    "weightKB": 5186,
+    "topFix": [
+     "Defer offscreen images",
+     "Serve images in next-gen formats",
+     "Properly size images"
+    ]
+   },
+   "issues": [
+    {
+     "sev": "serious",
+     "key": "broken-links",
+     "title": "6 broken link(s) on the homepage",
+     "fix": "Fix or remove: /faqs/, /cart/, /privacy-policy/"
+    },
+    {
+     "sev": "serious",
+     "key": "slow-mobile",
+     "title": "Very slow on mobile (speed 47/100)",
+     "fix": "Biggest wins: Defer offscreen images; Serve images in next-gen formats; Properly size images"
+    },
+    {
+     "sev": "warning",
+     "key": "no-title",
+     "title": "Homepage has no title tag",
+     "fix": "Set an SEO title in Yoast / Rank Math."
+    },
+    {
+     "sev": "warning",
+     "key": "no-description",
+     "title": "Homepage has no meta description",
+     "fix": "Write a 150–160 character description in the SEO plugin."
+    },
+    {
+     "sev": "warning",
+     "key": "no-h1",
+     "title": "Homepage has no H1 heading",
+     "fix": "Make the main hero heading an H1 in Elementor."
+    },
+    {
+     "sev": "warning",
+     "key": "users-exposed",
+     "title": "Admin usernames are publicly listed (/wp-json/wp/v2/users)",
+     "fix": "Block user enumeration with a security plugin (Wordfence, Solid Security)."
+    },
+    {
+     "sev": "warning",
+     "key": "seo-score",
+     "title": "Google SEO checks score 77/100",
+     "fix": "Run Lighthouse → SEO and fix the listed items."
+    },
+    {
+     "sev": "info",
+     "key": "alt-text",
+     "title": "20 images have no alt text",
+     "fix": "Add alt text in the Media Library (helps SEO and accessibility)."
+    },
+    {
+     "sev": "info",
+     "key": "xmlrpc",
+     "title": "XML-RPC is enabled (common attack target)",
+     "fix": "Disable XML-RPC if Jetpack/apps don't need it."
+    },
+    {
+     "sev": "info",
+     "key": "readme",
+     "title": "readme.html reveals WordPress details",
+     "fix": "Delete /readme.html from the server."
+    },
+    {
+     "sev": "info",
+     "key": "a11y-score",
+     "title": "Accessibility score 76/100",
+     "fix": "Fix colour contrast, link names and alt text."
+    }
+   ]
+  },
+  {
+   "name": "Ridley Beauty Zone",
+   "url": "https://www.ridleybeautyzone.co.uk/",
+   "group": "Beauty & wellness",
+   "env": "live",
+   "id": "ridleybeautyzone-co-uk",
+   "score": 51,
+   "status": "attention",
+   "checks": {
+    "checked": "2026-10-19T09:19:51.243Z",
+    "https": true,
+    "up": true,
+    "status": 200,
+    "error": null,
+    "responseMs": 791,
+    "finalUrl": "https://www.ridleybeautyzone.co.uk/",
+    "httpsRedirect": false,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "Let's Encrypt",
+     "expires": "2026-11-30",
+     "daysLeft": 42
+    },
+    "domain": {
+     "ok": false,
+     "error": "HTTP 429"
+    },
+    "headers": {
+     "hsts": false,
+     "nosniff": false,
+     "frame": false,
+     "server": "Apache",
+     "poweredBy": null,
+     "cache": null
+    },
+    "php": null,
+    "page": {
+     "title": null,
+     "description": null,
+     "robots": "max-image-preview:large",
+     "ogImage": false,
+     "canonical": true,
+     "viewport": true,
+     "lang": "en-US",
+     "h1": 2,
+     "wordpress": "7.1.3",
+     "elementor": "4.3.5",
+     "woocommerce": "yes",
+     "images": 32,
+     "imagesNoAlt": 4,
+     "mixedContent": 30,
+     "bytes": 273558,
+     "linkCount": 10
+    },
+    "wordpress": "7.1.3",
+    "wordpressLatest": "7.1.3",
+    "security": {
+     "usersExposed": 1,
+     "xmlrpc": true,
+     "readme": true
+    },
+    "seo": {
+     "robotsTxt": true,
+     "sitemap": "wp-sitemap.xml",
+     "blockedByRobots": false
+    },
+    "links": {
+     "checked": 10,
+     "broken": [
+      {
+       "url": "http://www.ridleybeautyzone.co.uk/privacy-policy/",
+       "status": null,
+       "error": "UND_ERR_CONNECT_TIMEOUT"
+      },
+      {
+       "url": "http://www.ridleybeautyzone.co.uk/terms-conditions/",
+       "status": null,
+       "error": "UND_ERR_CONNECT_TIMEOUT"
+      }
+     ]
+    }
+   },
+   "lighthouse": {
+    "performance": 61,
+    "accessibility": 89,
+    "bestPractices": 75,
+    "seo": 85,
+    "lcp": "34.8 s",
+    "cls": "0",
+    "tbt": "220 ms",
+    "weightKB": 9851,
+    "topFix": [
+     "Serve images in next-gen formats",
+     "Properly size images",
+     "Reduce unused JavaScript"
+    ]
+   },
+   "issues": [
+    {
+     "sev": "serious",
+     "key": "no-https-redirect",
+     "title": "http:// does not redirect to https://",
+     "fix": "Force HTTPS in the hosting panel or Really Simple SSL."
+    },
+    {
+     "sev": "warning",
+     "key": "no-title",
+     "title": "Homepage has no title tag",
+     "fix": "Set an SEO title in Yoast / Rank Math."
+    },
+    {
+     "sev": "warning",
+     "key": "no-description",
+     "title": "Homepage has no meta description",
+     "fix": "Write a 150–160 character description in the SEO plugin."
+    },
+    {
+     "sev": "warning",
+     "key": "mixed-content",
+     "title": "30 item(s) load over insecure http://",
+     "fix": "Update the URLs to https:// (Better Search Replace)."
+    },
+    {
+     "sev": "warning",
+     "key": "broken-links",
+     "title": "2 broken link(s) on the homepage",
+     "fix": "Fix or remove: /privacy-policy/, /terms-conditions/"
+    },
+    {
+     "sev": "warning",
+     "key": "users-exposed",
+     "title": "Admin usernames are publicly listed (/wp-json/wp/v2/users)",
+     "fix": "Block user enumeration with a security plugin (Wordfence, Solid Security)."
+    },
+    {
+     "sev": "warning",
+     "key": "slow-mobile",
+     "title": "Slow on mobile (speed 61/100)",
+     "fix": "Biggest wins: Serve images in next-gen formats; Properly size images; Reduce unused JavaScript"
+    },
+    {
+     "sev": "info",
+     "key": "many-h1",
+     "title": "Homepage has 2 H1 headings",
+     "fix": "Keep one H1; change the others to H2."
+    },
+    {
+     "sev": "info",
+     "key": "xmlrpc",
+     "title": "XML-RPC is enabled (common attack target)",
+     "fix": "Disable XML-RPC if Jetpack/apps don't need it."
+    },
+    {
+     "sev": "info",
+     "key": "readme",
+     "title": "readme.html reveals WordPress details",
+     "fix": "Delete /readme.html from the server."
+    },
+    {
+     "sev": "info",
+     "key": "no-hsts",
+     "title": "No HSTS security header",
+     "fix": "Add Strict-Transport-Security via the host or a headers plugin."
+    }
+   ]
+  },
+  {
+   "name": "Lola's Beauty Salon",
+   "url": "https://lolassaloon.tasneemkausar.com/",
+   "group": "Beauty & wellness",
+   "env": "staging",
+   "id": "lolassaloon-tasneemkausar-com",
+   "score": 81,
+   "status": "healthy",
+   "checks": {
+    "checked": "2026-10-19T09:19:52.168Z",
+    "https": true,
+    "up": true,
+    "status": 200,
+    "error": null,
+    "responseMs": 1283,
+    "finalUrl": "https://lolassaloon.tasneemkausar.com/",
+    "httpsRedirect": true,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "Let's Encrypt",
+     "expires": "2027-01-10",
+     "daysLeft": 83
+    },
+    "domain": {
+     "ok": false,
+     "error": "HTTP 429"
+    },
+    "headers": {
+     "hsts": false,
+     "nosniff": false,
+     "frame": false,
+     "server": "hcdn",
+     "poweredBy": "PHP/8.3.35",
+     "cache": null
+    },
+    "php": "8.3.35",
+    "page": {
+     "title": null,
+     "description": null,
+     "robots": "max-image-preview:large",
+     "ogImage": false,
+     "canonical": true,
+     "viewport": true,
+     "lang": "en-US",
+     "h1": 1,
+     "wordpress": "7.1.3",
+     "elementor": "4.3.5",
+     "woocommerce": "yes",
+     "images": 13,
+     "imagesNoAlt": 1,
+     "mixedContent": 0,
+     "bytes": 358254,
+     "linkCount": 8
+    },
+    "wordpress": "7.1.3",
+    "wordpressLatest": "7.1.3",
+    "security": {
+     "usersExposed": 1,
+     "xmlrpc": true,
+     "readme": true
+    },
+    "seo": {
+     "robotsTxt": true,
+     "sitemap": "wp-sitemap.xml",
+     "blockedByRobots": false
+    },
+    "links": {
+     "checked": 8,
+     "broken": []
+    }
+   },
+   "lighthouse": {
+    "performance": 71,
+    "accessibility": 91,
+    "bestPractices": 100,
+    "seo": 77,
+    "lcp": "7.9 s",
+    "cls": "0",
+    "tbt": "0 ms",
+    "weightKB": 1526,
+    "topFix": [
+     "Properly size images",
+     "Eliminate render-blocking resources",
+     "Initial server response time was short"
+    ]
+   },
+   "issues": [
+    {
+     "sev": "warning",
+     "key": "no-title",
+     "title": "Homepage has no title tag",
+     "fix": "Set an SEO title in Yoast / Rank Math."
+    },
+    {
+     "sev": "warning",
+     "key": "no-description",
+     "title": "Homepage has no meta description",
+     "fix": "Write a 150–160 character description in the SEO plugin."
+    },
+    {
+     "sev": "warning",
+     "key": "users-exposed",
+     "title": "Admin usernames are publicly listed (/wp-json/wp/v2/users)",
+     "fix": "Block user enumeration with a security plugin (Wordfence, Solid Security)."
+    },
+    {
+     "sev": "info",
+     "key": "php-exposed",
+     "title": "Server reveals its PHP version",
+     "fix": "Hide the X-Powered-By header (expose_php = Off)."
+    },
+    {
+     "sev": "info",
+     "key": "xmlrpc",
+     "title": "XML-RPC is enabled (common attack target)",
+     "fix": "Disable XML-RPC if Jetpack/apps don't need it."
+    },
+    {
+     "sev": "info",
+     "key": "readme",
+     "title": "readme.html reveals WordPress details",
+     "fix": "Delete /readme.html from the server."
+    },
+    {
+     "sev": "info",
+     "key": "no-hsts",
+     "title": "No HSTS security header",
+     "fix": "Add Strict-Transport-Security via the host or a headers plugin."
+    }
+   ]
+  },
+  {
+   "name": "Hair Port",
+   "url": "https://hairport.aqftrading.co.uk/",
+   "group": "Beauty & wellness",
+   "env": "staging",
+   "id": "hairport-aqftrading-co-uk",
+   "score": 59,
+   "status": "attention",
+   "checks": {
+    "checked": "2026-10-19T09:19:52.793Z",
+    "https": true,
+    "up": true,
+    "status": 200,
+    "error": null,
+    "responseMs": 806,
+    "finalUrl": "https://hairport.aqftrading.co.uk/",
+    "httpsRedirect": false,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "Let's Encrypt",
+     "expires": "2026-12-19",
+     "daysLeft": 60
+    },
+    "domain": {
+     "ok": true,
+     "expires": "2026-12-12",
+     "daysLeft": 53,
+     "registrar": "Register.com Inc t/a Network Solutions"
+    },
+    "headers": {
+     "hsts": true,
+     "nosniff": true,
+     "frame": true,
+     "server": "Apache",
+     "poweredBy": null,
+     "cache": null
+    },
+    "php": null,
+    "page": {
+     "title": null,
+     "description": null,
+     "robots": "max-image-preview:large",
+     "ogImage": false,
+     "canonical": true,
+     "viewport": true,
+     "lang": "en-US",
+     "h1": 0,
+     "wordpress": "7.1.3",
+     "elementor": "4.3.5",
+     "woocommerce": "yes",
+     "images": 17,
+     "imagesNoAlt": 11,
+     "mixedContent": 1,
+     "bytes": 360224,
+     "linkCount": 7
+    },
+    "wordpress": "7.1.3",
+    "wordpressLatest": "7.1.3",
+    "security": {
+     "usersExposed": 1,
+     "xmlrpc": false,
+     "readme": false
+    },
+    "seo": {
+     "robotsTxt": false,
+     "sitemap": "sitemap.xml",
+     "blockedByRobots": false
+    },
+    "links": {
+     "checked": 7,
+     "broken": []
+    }
+   },
+   "lighthouse": {
+    "performance": 79,
+    "accessibility": 86,
+    "bestPractices": 100,
+    "seo": 85,
+    "lcp": "4.3 s",
+    "cls": "0.007",
+    "tbt": "50 ms",
+    "weightKB": 1486,
+    "topFix": [
+     "Eliminate render-blocking resources",
+     "Initial server response time was short",
+     "Defer offscreen images"
+    ]
+   },
+   "issues": [
+    {
+     "sev": "serious",
+     "key": "no-https-redirect",
+     "title": "http:// does not redirect to https://",
+     "fix": "Force HTTPS in the hosting panel or Really Simple SSL."
+    },
+    {
+     "sev": "warning",
+     "key": "no-title",
+     "title": "Homepage has no title tag",
+     "fix": "Set an SEO title in Yoast / Rank Math."
+    },
+    {
+     "sev": "warning",
+     "key": "no-description",
+     "title": "Homepage has no meta description",
+     "fix": "Write a 150–160 character description in the SEO plugin."
+    },
+    {
+     "sev": "warning",
+     "key": "no-h1",
+     "title": "Homepage has no H1 heading",
+     "fix": "Make the main hero heading an H1 in Elementor."
+    },
+    {
+     "sev": "warning",
+     "key": "mixed-content",
+     "title": "1 item(s) load over insecure http://",
+     "fix": "Update the URLs to https:// (Better Search Replace)."
+    },
+    {
+     "sev": "warning",
+     "key": "users-exposed",
+     "title": "Admin usernames are publicly listed (/wp-json/wp/v2/users)",
+     "fix": "Block user enumeration with a security plugin (Wordfence, Solid Security)."
+    },
+    {
+     "sev": "info",
+     "key": "alt-text",
+     "title": "11 images have no alt text",
+     "fix": "Add alt text in the Media Library (helps SEO and accessibility)."
+    }
+   ]
+  },
+  {
+   "name": "Biters",
+   "url": "https://biters.aqftrading.co.uk/",
+   "group": "Food & hospitality",
+   "env": "staging",
+   "id": "biters-aqftrading-co-uk",
+   "score": 60,
+   "status": "critical",
+   "checks": {
+    "checked": "2026-10-19T09:19:55.519Z",
+    "https": false,
+    "up": false,
+    "status": null,
+    "error": "UND_ERR_CONNECT_TIMEOUT",
+    "responseMs": 10162,
+    "finalUrl": null,
+    "httpsRedirect": false,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "Let's Encrypt",
+     "expires": "2026-12-06",
+     "daysLeft": 47
+    },
+    "domain": {
+     "ok": true,
+     "expires": "2026-12-12",
+     "daysLeft": 53,
+     "registrar": "Register.com Inc t/a Network Solutions"
+    }
+   },
+   "lighthouse": null,
+   "issues": [
+    {
+     "sev": "critical",
+     "key": "down",
+     "title": "Site is not reachable (UND_ERR_CONNECT_TIMEOUT)",
+     "fix": "Check the hosting account, DNS and server error logs."
+    }
+   ]
+  },
+  {
+   "name": "Smokey Yard",
+   "url": "https://smokeyyard.co.uk/",
+   "group": "Food & hospitality",
+   "env": "live",
+   "id": "smokeyyard-co-uk",
+   "score": 66,
+   "status": "attention",
+   "checks": {
+    "checked": "2026-10-19T09:20:15.173Z",
+    "https": true,
+    "up": true,
+    "status": 200,
+    "error": null,
+    "responseMs": 521,
+    "finalUrl": "https://smokeyyard.co.uk/",
+    "httpsRedirect": true,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "Let's Encrypt",
+     "expires": "2026-12-31",
+     "daysLeft": 73
+    },
+    "domain": {
+     "ok": false,
+     "error": "HTTP 429"
+    },
+    "headers": {
+     "hsts": false,
+     "nosniff": false,
+     "frame": false,
+     "server": "nginx",
+     "poweredBy": "PHP/8.3.35, PleskLin",
+     "cache": null
+    },
+    "php": "8.3.35",
+    "page": {
+     "title": "Smokey Yard – Smokey Yard",
+     "description": null,
+     "robots": "max-image-preview:large",
+     "ogImage": false,
+     "canonical": true,
+     "viewport": true,
+     "lang": "en-GB",
+     "h1": 1,
+     "wordpress": "7.1.3",
+     "elementor": "4.3.4",
+     "woocommerce": "11.2.1",
+     "images": 33,
+     "imagesNoAlt": 24,
+     "mixedContent": 0,
+     "bytes": 278321,
+     "linkCount": 29
+    },
+    "wordpress": "7.1.3",
+    "wordpressLatest": "7.1.3",
+    "security": {
+     "usersExposed": 0,
+     "xmlrpc": true,
+     "readme": false
+    },
+    "seo": {
+     "robotsTxt": true,
+     "sitemap": "wp-sitemap.xml",
+     "blockedByRobots": false
+    },
+    "links": {
+     "checked": 29,
+     "broken": [
+      {
+       "url": "https://smokeyyard.co.uk/state.cartItem.permalink",
+       "status": 404,
+       "error": null
+      }
+     ]
+    }
+   },
+   "lighthouse": {
+    "performance": 38,
+    "accessibility": 92,
+    "bestPractices": 79,
+    "seo": 77,
+    "lcp": "15.5 s",
+    "cls": "0.009",
+    "tbt": "990 ms",
+    "weightKB": 6010,
+    "topFix": [
+     "Eliminate render-blocking resources",
+     "Reduce unused JavaScript",
+     "Serve images in next-gen formats"
+    ]
+   },
+   "issues": [
+    {
+     "sev": "serious",
+     "key": "slow-mobile",
+     "title": "Very slow on mobile (speed 38/100)",
+     "fix": "Biggest wins: Eliminate render-blocking resources; Reduce unused JavaScript; Serve images in next-gen formats"
+    },
+    {
+     "sev": "warning",
+     "key": "no-description",
+     "title": "Homepage has no meta description",
+     "fix": "Write a 150–160 character description in the SEO plugin."
+    },
+    {
+     "sev": "warning",
+     "key": "broken-links",
+     "title": "1 broken link(s) on the homepage",
+     "fix": "Fix or remove: /state.cartItem.permalink"
+    },
+    {
+     "sev": "warning",
+     "key": "seo-score",
+     "title": "Google SEO checks score 77/100",
+     "fix": "Run Lighthouse → SEO and fix the listed items."
+    },
+    {
+     "sev": "info",
+     "key": "alt-text",
+     "title": "24 images have no alt text",
+     "fix": "Add alt text in the Media Library (helps SEO and accessibility)."
+    },
+    {
+     "sev": "info",
+     "key": "php-exposed",
+     "title": "Server reveals its PHP version",
+     "fix": "Hide the X-Powered-By header (expose_php = Off)."
+    },
+    {
+     "sev": "info",
+     "key": "xmlrpc",
+     "title": "XML-RPC is enabled (common attack target)",
+     "fix": "Disable XML-RPC if Jetpack/apps don't need it."
+    },
+    {
+     "sev": "info",
+     "key": "no-hsts",
+     "title": "No HSTS security header",
+     "fix": "Add Strict-Transport-Security via the host or a headers plugin."
+    }
+   ]
+  },
+  {
+   "name": "JD Consortium",
+   "url": "https://jdconsortiumltd.uk/",
+   "group": "Home & construction",
+   "env": "live",
+   "id": "jdconsortiumltd-uk",
+   "score": 47,
+   "status": "attention",
+   "checks": {
+    "checked": "2026-10-19T09:20:15.672Z",
+    "https": true,
+    "up": true,
+    "status": 200,
+    "error": null,
+    "responseMs": 5802,
+    "finalUrl": "https://jdconsortiumltd.uk/",
+    "httpsRedirect": false,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "Let's Encrypt",
+     "expires": "2026-12-03",
+     "daysLeft": 44
+    },
+    "domain": {
+     "ok": false,
+     "error": "HTTP 429"
+    },
+    "headers": {
+     "hsts": true,
+     "nosniff": true,
+     "frame": true,
+     "server": "Apache",
+     "poweredBy": null,
+     "cache": null
+    },
+    "php": null,
+    "page": {
+     "title": null,
+     "description": null,
+     "robots": "max-image-preview:large",
+     "ogImage": false,
+     "canonical": true,
+     "viewport": true,
+     "lang": "en-US",
+     "h1": 0,
+     "wordpress": "7.1.3",
+     "elementor": "4.3.5",
+     "woocommerce": "yes",
+     "images": 40,
+     "imagesNoAlt": 12,
+     "mixedContent": 32,
+     "bytes": 280431,
+     "linkCount": 4
+    },
+    "wordpress": "7.1.3",
+    "wordpressLatest": "7.1.3",
+    "security": {
+     "usersExposed": 1,
+     "xmlrpc": true,
+     "readme": true
+    },
+    "seo": {
+     "robotsTxt": true,
+     "sitemap": "wp-sitemap.xml",
+     "blockedByRobots": false
+    },
+    "links": {
+     "checked": 4,
+     "broken": []
+    }
+   },
+   "lighthouse": {
+    "performance": 66,
+    "accessibility": 88,
+    "bestPractices": 79,
+    "seo": 85,
+    "lcp": "6.3 s",
+    "cls": "0.018",
+    "tbt": "140 ms",
+    "weightKB": 7719,
+    "topFix": [
+     "Eliminate render-blocking resources",
+     "Serve images in next-gen formats",
+     "Initial server response time was short"
+    ]
+   },
+   "issues": [
+    {
+     "sev": "serious",
+     "key": "no-https-redirect",
+     "title": "http:// does not redirect to https://",
+     "fix": "Force HTTPS in the hosting panel or Really Simple SSL."
+    },
+    {
+     "sev": "warning",
+     "key": "no-title",
+     "title": "Homepage has no title tag",
+     "fix": "Set an SEO title in Yoast / Rank Math."
+    },
+    {
+     "sev": "warning",
+     "key": "no-description",
+     "title": "Homepage has no meta description",
+     "fix": "Write a 150–160 character description in the SEO plugin."
+    },
+    {
+     "sev": "warning",
+     "key": "no-h1",
+     "title": "Homepage has no H1 heading",
+     "fix": "Make the main hero heading an H1 in Elementor."
+    },
+    {
+     "sev": "warning",
+     "key": "mixed-content",
+     "title": "32 item(s) load over insecure http://",
+     "fix": "Update the URLs to https:// (Better Search Replace)."
+    },
+    {
+     "sev": "warning",
+     "key": "users-exposed",
+     "title": "Admin usernames are publicly listed (/wp-json/wp/v2/users)",
+     "fix": "Block user enumeration with a security plugin (Wordfence, Solid Security)."
+    },
+    {
+     "sev": "warning",
+     "key": "slow-server",
+     "title": "Server is slow to respond (5.8 s)",
+     "fix": "Enable page caching (LiteSpeed Cache / WP Rocket) or upgrade hosting."
+    },
+    {
+     "sev": "warning",
+     "key": "slow-mobile",
+     "title": "Slow on mobile (speed 66/100)",
+     "fix": "Biggest wins: Eliminate render-blocking resources; Serve images in next-gen formats; Initial server response time was short"
+    },
+    {
+     "sev": "info",
+     "key": "alt-text",
+     "title": "12 images have no alt text",
+     "fix": "Add alt text in the Media Library (helps SEO and accessibility)."
+    },
+    {
+     "sev": "info",
+     "key": "xmlrpc",
+     "title": "XML-RPC is enabled (common attack target)",
+     "fix": "Disable XML-RPC if Jetpack/apps don't need it."
+    },
+    {
+     "sev": "info",
+     "key": "readme",
+     "title": "readme.html reveals WordPress details",
+     "fix": "Delete /readme.html from the server."
+    }
+   ]
+  },
+  {
+   "name": "ABL Design & Build",
+   "url": "https://abldesignandbuild.co.uk/",
+   "group": "Home & construction",
+   "env": "live",
+   "id": "abldesignandbuild-co-uk",
+   "score": 70,
+   "status": "attention",
+   "checks": {
+    "checked": "2026-10-19T09:20:22.188Z",
+    "https": true,
+    "up": true,
+    "status": 200,
+    "error": null,
+    "responseMs": 1840,
+    "finalUrl": "https://abldesignandbuild.co.uk/",
+    "httpsRedirect": true,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "Let's Encrypt",
+     "expires": "2027-01-15",
+     "daysLeft": 87
+    },
+    "domain": {
+     "ok": false,
+     "error": "HTTP 429"
+    },
+    "headers": {
+     "hsts": false,
+     "nosniff": false,
+     "frame": false,
+     "server": "Apache",
+     "poweredBy": "PHP/7.4",
+     "cache": null
+    },
+    "php": "7.4",
+    "page": {
+     "title": "Builders in Twickenham | Home Renovation & Design & Build",
+     "description": "Trusted builders in Twickenham specialising in home renovations, house extensions, loft conversions & design and build. Get your free consultation today.",
+     "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+     "ogImage": true,
+     "canonical": true,
+     "viewport": true,
+     "lang": "en-GB",
+     "h1": 1,
+     "wordpress": "7.1.3",
+     "elementor": "4.3.5",
+     "woocommerce": null,
+     "images": 25,
+     "imagesNoAlt": 10,
+     "mixedContent": 0,
+     "bytes": 250013,
+     "linkCount": 16
+    },
+    "wordpress": "7.1.3",
+    "wordpressLatest": "7.1.3",
+    "security": {
+     "usersExposed": 3,
+     "xmlrpc": true,
+     "readme": true
+    },
+    "seo": {
+     "robotsTxt": true,
+     "sitemap": "sitemap_index.xml",
+     "blockedByRobots": false
+    },
+    "links": {
+     "checked": 16,
+     "broken": []
+    }
+   },
+   "lighthouse": {
+    "performance": 60,
+    "accessibility": 89,
+    "bestPractices": 96,
+    "seo": 92,
+    "lcp": "7.8 s",
+    "cls": "0.001",
+    "tbt": "210 ms",
+    "weightKB": 3096,
+    "topFix": [
+     "Properly size images",
+     "Reduce initial server response time",
+     "Serve images in next-gen formats"
+    ]
+   },
+   "issues": [
+    {
+     "sev": "serious",
+     "key": "php-old",
+     "title": "Server runs old PHP 7.4",
+     "fix": "Switch to PHP 8.2+ in the hosting panel (test on staging first)."
+    },
+    {
+     "sev": "warning",
+     "key": "users-exposed",
+     "title": "Admin usernames are publicly listed (/wp-json/wp/v2/users)",
+     "fix": "Block user enumeration with a security plugin (Wordfence, Solid Security)."
+    },
+    {
+     "sev": "warning",
+     "key": "slow-mobile",
+     "title": "Slow on mobile (speed 60/100)",
+     "fix": "Biggest wins: Properly size images; Reduce initial server response time; Serve images in next-gen formats"
+    },
+    {
+     "sev": "info",
+     "key": "alt-text",
+     "title": "10 images have no alt text",
+     "fix": "Add alt text in the Media Library (helps SEO and accessibility)."
+    },
+    {
+     "sev": "info",
+     "key": "php-exposed",
+     "title": "Server reveals its PHP version",
+     "fix": "Hide the X-Powered-By header (expose_php = Off)."
+    },
+    {
+     "sev": "info",
+     "key": "xmlrpc",
+     "title": "XML-RPC is enabled (common attack target)",
+     "fix": "Disable XML-RPC if Jetpack/apps don't need it."
+    },
+    {
+     "sev": "info",
+     "key": "readme",
+     "title": "readme.html reveals WordPress details",
+     "fix": "Delete /readme.html from the server."
+    },
+    {
+     "sev": "info",
+     "key": "no-hsts",
+     "title": "No HSTS security header",
+     "fix": "Add Strict-Transport-Security via the host or a headers plugin."
+    }
+   ]
+  },
+  {
+   "name": "Union Windows",
+   "url": "https://unionwindows.co.uk/",
+   "group": "Home & construction",
+   "env": "live",
+   "id": "unionwindows-co-uk",
+   "score": 81,
+   "status": "healthy",
+   "checks": {
+    "checked": "2026-10-19T09:20:24.002Z",
+    "https": true,
+    "up": true,
+    "status": 200,
+    "error": null,
+    "responseMs": 3289,
+    "finalUrl": "https://unionwindows.co.uk/",
+    "httpsRedirect": true,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "GoDaddy.com",
+     "expires": "2026-12-24",
+     "daysLeft": 66
+    },
+    "domain": {
+     "ok": false,
+     "error": "HTTP 429"
+    },
+    "headers": {
+     "hsts": false,
+     "nosniff": false,
+     "frame": false,
+     "server": "Apache",
+     "poweredBy": "PHP/8.3.33",
+     "cache": null
+    },
+    "php": "8.3.33",
+    "page": {
+     "title": "Door & Window Installation London | Experts Near You",
+     "description": "Expert door and window installation London. uPVC, aluminium & timber options. Free quotes, professional fitting & 10-year guarantee. Call now!",
+     "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+     "ogImage": true,
+     "canonical": true,
+     "viewport": true,
+     "lang": "en-US",
+     "h1": 1,
+     "wordpress": "7.1.3",
+     "elementor": "4.1.3",
+     "woocommerce": "yes",
+     "images": 4,
+     "imagesNoAlt": 4,
+     "mixedContent": 0,
+     "bytes": 240484,
+     "linkCount": 7
+    },
+    "wordpress": "7.1.3",
+    "wordpressLatest": "7.1.3",
+    "security": {
+     "usersExposed": 1,
+     "xmlrpc": true,
+     "readme": true
+    },
+    "seo": {
+     "robotsTxt": true,
+     "sitemap": "sitemap_index.xml",
+     "blockedByRobots": false
+    },
+    "links": {
+     "checked": 7,
+     "broken": []
+    }
+   },
+   "lighthouse": {
+    "performance": 62,
+    "accessibility": 91,
+    "bestPractices": 100,
+    "seo": 92,
+    "lcp": "5.8 s",
+    "cls": "0.021",
+    "tbt": "140 ms",
+    "weightKB": 1682,
+    "topFix": [
+     "Reduce initial server response time",
+     "Eliminate render-blocking resources",
+     "Reduce unused JavaScript"
+    ]
+   },
+   "issues": [
+    {
+     "sev": "warning",
+     "key": "users-exposed",
+     "title": "Admin usernames are publicly listed (/wp-json/wp/v2/users)",
+     "fix": "Block user enumeration with a security plugin (Wordfence, Solid Security)."
+    },
+    {
+     "sev": "warning",
+     "key": "slow-server",
+     "title": "Server is slow to respond (3.3 s)",
+     "fix": "Enable page caching (LiteSpeed Cache / WP Rocket) or upgrade hosting."
+    },
+    {
+     "sev": "warning",
+     "key": "slow-mobile",
+     "title": "Slow on mobile (speed 62/100)",
+     "fix": "Biggest wins: Reduce initial server response time; Eliminate render-blocking resources; Reduce unused JavaScript"
+    },
+    {
+     "sev": "info",
+     "key": "php-exposed",
+     "title": "Server reveals its PHP version",
+     "fix": "Hide the X-Powered-By header (expose_php = Off)."
+    },
+    {
+     "sev": "info",
+     "key": "xmlrpc",
+     "title": "XML-RPC is enabled (common attack target)",
+     "fix": "Disable XML-RPC if Jetpack/apps don't need it."
+    },
+    {
+     "sev": "info",
+     "key": "readme",
+     "title": "readme.html reveals WordPress details",
+     "fix": "Delete /readme.html from the server."
+    },
+    {
+     "sev": "info",
+     "key": "no-hsts",
+     "title": "No HSTS security header",
+     "fix": "Add Strict-Transport-Security via the host or a headers plugin."
+    }
+   ]
+  },
+  {
+   "name": "Elit Curtains",
+   "url": "https://elitcurtains.aqftrading.co.uk/",
+   "group": "Home & construction",
+   "env": "staging",
+   "id": "elitcurtains-aqftrading-co-uk",
+   "score": 54,
+   "status": "critical",
+   "checks": {
+    "checked": "2026-10-19T09:20:24.392Z",
+    "https": false,
+    "up": true,
+    "status": 200,
+    "error": null,
+    "responseMs": 420,
+    "finalUrl": "http://elitcurtains.aqftrading.co.uk/404.html",
+    "httpsRedirect": false,
+    "ssl": {
+     "ok": true,
+     "valid": false,
+     "error": "ERR_TLS_CERT_ALTNAME_INVALID",
+     "issuer": "DigiCert Inc",
+     "expires": "2027-02-21",
+     "daysLeft": 125
+    },
+    "domain": {
+     "ok": true,
+     "expires": "2026-12-12",
+     "daysLeft": 53,
+     "registrar": "Register.com Inc t/a Network Solutions"
+    },
+    "headers": {
+     "hsts": false,
+     "nosniff": false,
+     "frame": false,
+     "server": "Apache",
+     "poweredBy": null,
+     "cache": null
+    },
+    "php": null,
+    "page": {
+     "title": "404 Error",
+     "description": null,
+     "robots": "noindex, nofollow",
+     "ogImage": false,
+     "canonical": false,
+     "viewport": true,
+     "lang": "en",
+     "h1": 1,
+     "wordpress": null,
+     "elementor": null,
+     "woocommerce": null,
+     "images": 0,
+     "imagesNoAlt": 0,
+     "mixedContent": 0,
+     "bytes": 746,
+     "linkCount": 0
+    },
+    "wordpress": null,
+    "wordpressLatest": "7.1.3",
+    "security": {
+     "usersExposed": 0,
+     "xmlrpc": false,
+     "readme": false
+    },
+    "seo": {
+     "robotsTxt": true,
+     "sitemap": null,
+     "blockedByRobots": true
+    },
+    "links": {
+     "checked": 0,
+     "broken": []
+    }
+   },
+   "lighthouse": null,
+   "issues": [
+    {
+     "sev": "critical",
+     "key": "ssl-invalid",
+     "title": "SSL certificate problem: ERR_TLS_CERT_ALTNAME_INVALID",
+     "fix": "Reissue the certificate for the correct domain(s)."
+    },
+    {
+     "sev": "warning",
+     "key": "no-description",
+     "title": "Homepage has no meta description",
+     "fix": "Write a 150–160 character description in the SEO plugin."
+    },
+    {
+     "sev": "info",
+     "key": "noindex",
+     "title": "Hidden from Google (expected on staging)",
+     "fix": "Remove before launch: Settings → Reading → Search engine visibility."
+    }
+   ]
+  },
+  {
+   "name": "Global Link Consultants",
+   "url": "https://globallinkconsultants.uk/",
+   "group": "Business services",
+   "env": "live",
+   "id": "globallinkconsultants-uk",
+   "score": 87,
+   "status": "healthy",
+   "checks": {
+    "checked": "2026-10-19T09:20:26.738Z",
+    "https": true,
+    "up": true,
+    "status": 200,
+    "error": null,
+    "responseMs": 109,
+    "finalUrl": "https://globallinkconsultants.uk/",
+    "httpsRedirect": true,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "Let's Encrypt",
+     "expires": "2026-12-26",
+     "daysLeft": 67
+    },
+    "domain": {
+     "ok": false,
+     "error": "HTTP 429"
+    },
+    "headers": {
+     "hsts": true,
+     "nosniff": true,
+     "frame": true,
+     "server": "hcdn",
+     "poweredBy": "PHP/8.5.11",
+     "cache": "hit"
+    },
+    "php": "8.5.11",
+    "page": {
+     "title": "Global Links EN - globallinkconsultants.uk",
+     "description": "At Global Link, we believe every successful future in the UK begins with the right foundation. That’s why we focus on more than just applications we build a",
+     "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+     "ogImage": false,
+     "canonical": true,
+     "viewport": true,
+     "lang": "en-US",
+     "h1": 0,
+     "wordpress": "7.1.3",
+     "elementor": "4.3.5",
+     "woocommerce": null,
+     "images": 5,
+     "imagesNoAlt": 5,
+     "mixedContent": 0,
+     "bytes": 165208,
+     "linkCount": 5
+    },
+    "wordpress": "7.1.3",
+    "wordpressLatest": "7.1.3",
+    "security": {
+     "usersExposed": 1,
+     "xmlrpc": true,
+     "readme": true
+    },
+    "seo": {
+     "robotsTxt": true,
+     "sitemap": "sitemap_index.xml",
+     "blockedByRobots": false
+    },
+    "links": {
+     "checked": 5,
+     "broken": []
+    }
+   },
+   "lighthouse": {
+    "performance": 80,
+    "accessibility": 89,
+    "bestPractices": 93,
+    "seo": 92,
+    "lcp": "4.0 s",
+    "cls": "0",
+    "tbt": "10 ms",
+    "weightKB": 565,
+    "topFix": [
+     "Eliminate render-blocking resources",
+     "Reduce initial server response time"
+    ]
+   },
+   "issues": [
+    {
+     "sev": "warning",
+     "key": "no-h1",
+     "title": "Homepage has no H1 heading",
+     "fix": "Make the main hero heading an H1 in Elementor."
+    },
+    {
+     "sev": "warning",
+     "key": "users-exposed",
+     "title": "Admin usernames are publicly listed (/wp-json/wp/v2/users)",
+     "fix": "Block user enumeration with a security plugin (Wordfence, Solid Security)."
+    },
+    {
+     "sev": "info",
+     "key": "php-exposed",
+     "title": "Server reveals its PHP version",
+     "fix": "Hide the X-Powered-By header (expose_php = Off)."
+    },
+    {
+     "sev": "info",
+     "key": "xmlrpc",
+     "title": "XML-RPC is enabled (common attack target)",
+     "fix": "Disable XML-RPC if Jetpack/apps don't need it."
+    },
+    {
+     "sev": "info",
+     "key": "readme",
+     "title": "readme.html reveals WordPress details",
+     "fix": "Delete /readme.html from the server."
+    }
+   ]
+  },
+  {
+   "name": "Nexus Mansfield",
+   "url": "https://nexusmansfield.com/",
+   "group": "Business services",
+   "env": "live",
+   "id": "nexusmansfield-com",
+   "score": 82,
+   "status": "healthy",
+   "checks": {
+    "checked": "2026-10-19T09:20:27.657Z",
+    "https": true,
+    "up": true,
+    "status": 200,
+    "error": null,
+    "responseMs": 1318,
+    "finalUrl": "https://nexusmansfield.com/",
+    "httpsRedirect": true,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "Let's Encrypt",
+     "expires": "2027-01-03",
+     "daysLeft": 75
+    },
+    "domain": {
+     "ok": false,
+     "error": "HTTP 429"
+    },
+    "headers": {
+     "hsts": true,
+     "nosniff": true,
+     "frame": true,
+     "server": "hcdn",
+     "poweredBy": "PHP/8.5.11",
+     "cache": null
+    },
+    "php": "8.5.11",
+    "page": {
+     "title": "nexusmansfield.com",
+     "description": null,
+     "robots": "max-image-preview:large",
+     "ogImage": false,
+     "canonical": true,
+     "viewport": true,
+     "lang": "en-US",
+     "h1": 0,
+     "wordpress": "7.1.3",
+     "elementor": null,
+     "woocommerce": "yes",
+     "images": 4,
+     "imagesNoAlt": 4,
+     "mixedContent": 0,
+     "bytes": 172427,
+     "linkCount": 4
+    },
+    "wordpress": "7.1.3",
+    "wordpressLatest": "7.1.3",
+    "security": {
+     "usersExposed": 1,
+     "xmlrpc": true,
+     "readme": true
+    },
+    "seo": {
+     "robotsTxt": true,
+     "sitemap": "wp-sitemap.xml",
+     "blockedByRobots": false
+    },
+    "links": {
+     "checked": 4,
+     "broken": []
+    }
+   },
+   "lighthouse": {
+    "performance": 86,
+    "accessibility": 92,
+    "bestPractices": 96,
+    "seo": 92,
+    "lcp": "3.3 s",
+    "cls": "0.052",
+    "tbt": "0 ms",
+    "weightKB": 414,
+    "topFix": [
+     "Initial server response time was short"
+    ]
+   },
+   "issues": [
+    {
+     "sev": "warning",
+     "key": "no-description",
+     "title": "Homepage has no meta description",
+     "fix": "Write a 150–160 character description in the SEO plugin."
+    },
+    {
+     "sev": "warning",
+     "key": "no-h1",
+     "title": "Homepage has no H1 heading",
+     "fix": "Make the main hero heading an H1 in Elementor."
+    },
+    {
+     "sev": "warning",
+     "key": "users-exposed",
+     "title": "Admin usernames are publicly listed (/wp-json/wp/v2/users)",
+     "fix": "Block user enumeration with a security plugin (Wordfence, Solid Security)."
+    },
+    {
+     "sev": "info",
+     "key": "php-exposed",
+     "title": "Server reveals its PHP version",
+     "fix": "Hide the X-Powered-By header (expose_php = Off)."
+    },
+    {
+     "sev": "info",
+     "key": "xmlrpc",
+     "title": "XML-RPC is enabled (common attack target)",
+     "fix": "Disable XML-RPC if Jetpack/apps don't need it."
+    },
+    {
+     "sev": "info",
+     "key": "readme",
+     "title": "readme.html reveals WordPress details",
+     "fix": "Delete /readme.html from the server."
+    }
+   ]
+  },
+  {
+   "name": "The Tyres Egham",
+   "url": "https://thetyresegham.co.uk/",
+   "group": "Business services",
+   "env": "live",
+   "id": "thetyresegham-co-uk",
+   "score": 79,
+   "status": "attention",
+   "checks": {
+    "checked": "2026-10-19T09:20:28.646Z",
+    "https": true,
+    "up": true,
+    "status": 200,
+    "error": null,
+    "responseMs": 303,
+    "finalUrl": "https://thetyresegham.co.uk/",
+    "httpsRedirect": true,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "SSL Corporation",
+     "expires": "2027-01-29",
+     "daysLeft": 102
+    },
+    "domain": {
+     "ok": false,
+     "error": "HTTP 429"
+    },
+    "headers": {
+     "hsts": false,
+     "nosniff": false,
+     "frame": false,
+     "server": "LiteSpeed",
+     "poweredBy": null,
+     "cache": null
+    },
+    "php": null,
+    "page": {
+     "title": "The Tyres Egham - Trusted tyre & auto services",
+     "description": "Independent tyre fitter in Egham. Search by registration or size, compare 29 brands, and book a fully-fitted slot in under two minutes. Pay when fitted.",
+     "robots": null,
+     "ogImage": false,
+     "canonical": false,
+     "viewport": true,
+     "lang": "en",
+     "h1": 0,
+     "wordpress": null,
+     "elementor": null,
+     "woocommerce": null,
+     "images": 0,
+     "imagesNoAlt": 0,
+     "mixedContent": 0,
+     "bytes": 1418,
+     "linkCount": 0
+    },
+    "wordpress": null,
+    "wordpressLatest": "7.1.3",
+    "security": {
+     "usersExposed": 0,
+     "xmlrpc": false,
+     "readme": false
+    },
+    "seo": {
+     "robotsTxt": true,
+     "sitemap": "sitemap.xml",
+     "blockedByRobots": false
+    },
+    "links": {
+     "checked": 0,
+     "broken": []
+    }
+   },
+   "lighthouse": {
+    "performance": 48,
+    "accessibility": 88,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "15.7 s",
+    "cls": "0",
+    "tbt": "830 ms",
+    "weightKB": 4843,
+    "topFix": [
+     "Serve images in next-gen formats",
+     "Eliminate render-blocking resources"
+    ]
+   },
+   "issues": [
+    {
+     "sev": "serious",
+     "key": "slow-mobile",
+     "title": "Very slow on mobile (speed 48/100)",
+     "fix": "Biggest wins: Serve images in next-gen formats; Eliminate render-blocking resources"
+    },
+    {
+     "sev": "warning",
+     "key": "no-h1",
+     "title": "Homepage has no H1 heading",
+     "fix": "Make the main hero heading an H1 in Elementor."
+    },
+    {
+     "sev": "info",
+     "key": "no-hsts",
+     "title": "No HSTS security header",
+     "fix": "Add Strict-Transport-Security via the host or a headers plugin."
+    }
+   ]
+  },
+  {
+   "name": "Sm@rt Tech Hub",
+   "url": "https://smartechhub.tasneemkausar.com/",
+   "group": "Business services",
+   "env": "staging",
+   "id": "smartechhub-tasneemkausar-com",
+   "score": 90,
+   "status": "healthy",
+   "checks": {
+    "checked": "2026-10-19T09:20:30.121Z",
+    "https": true,
+    "up": true,
+    "status": 200,
+    "error": null,
+    "responseMs": 1271,
+    "finalUrl": "https://smartechhub.tasneemkausar.com/",
+    "httpsRedirect": true,
+    "ssl": {
+     "ok": true,
+     "valid": true,
+     "error": null,
+     "issuer": "Let's Encrypt",
+     "expires": "2027-01-05",
+     "daysLeft": 78
+    },
+    "domain": {
+     "ok": false,
+     "error": "HTTP 429"
+    },
+    "headers": {
+     "hsts": false,
+     "nosniff": false,
+     "frame": false,
+     "server": "hcdn",
+     "poweredBy": "PHP/8.3.35",
+     "cache": null
+    },
+    "php": "8.3.35",
+    "page": {
+     "title": "Phone Parts, Repairs & Accessories, East Ham | Sm@rt Tech Hub",
+     "description": "Mobile phone parts, walk-in repairs and accessories at 103 Katherine Road, East Ham, London E6. Trade and walk-in customers welcome. Collect in store.",
+     "robots": "max-image-preview:large",
+     "ogImage": false,
+     "canonical": true,
+     "viewport": true,
+     "lang": "en-US",
+     "h1": 1,
+     "wordpress": "7.1.3",
+     "elementor": "4.3.5",
+     "woocommerce": null,
+     "images": 45,
+     "imagesNoAlt": 7,
+     "mixedContent": 0,
+     "bytes": 83909,
+     "linkCount": 5
+    },
+    "wordpress": "7.1.3",
+    "wordpressLatest": "7.1.3",
+    "security": {
+     "usersExposed": 1,
+     "xmlrpc": true,
+     "readme": true
+    },
+    "seo": {
+     "robotsTxt": true,
+     "sitemap": "wp-sitemap.xml",
+     "blockedByRobots": false
+    },
+    "links": {
+     "checked": 5,
+     "broken": []
+    }
+   },
+   "lighthouse": {
+    "performance": 71,
+    "accessibility": 97,
+    "bestPractices": 100,
+    "seo": 100,
+    "lcp": "5.4 s",
+    "cls": "0.029",
+    "tbt": "0 ms",
+    "weightKB": 1037,
+    "topFix": [
+     "Eliminate render-blocking resources",
+     "Reduce initial server response time",
+     "Properly size images"
+    ]
+   },
+   "issues": [
+    {
+     "sev": "warning",
+     "key": "users-exposed",
+     "title": "Admin usernames are publicly listed (/wp-json/wp/v2/users)",
+     "fix": "Block user enumeration with a security plugin (Wordfence, Solid Security)."
+    },
+    {
+     "sev": "info",
+     "key": "alt-text",
+     "title": "7 images have no alt text",
+     "fix": "Add alt text in the Media Library (helps SEO and accessibility)."
+    },
+    {
+     "sev": "info",
+     "key": "php-exposed",
+     "title": "Server reveals its PHP version",
+     "fix": "Hide the X-Powered-By header (expose_php = Off)."
+    },
+    {
+     "sev": "info",
+     "key": "xmlrpc",
+     "title": "XML-RPC is enabled (common attack target)",
+     "fix": "Disable XML-RPC if Jetpack/apps don't need it."
+    },
+    {
+     "sev": "info",
+     "key": "readme",
+     "title": "readme.html reveals WordPress details",
+     "fix": "Delete /readme.html from the server."
+    },
+    {
+     "sev": "info",
+     "key": "no-hsts",
+     "title": "No HSTS security header",
+     "fix": "Add Strict-Transport-Security via the host or a headers plugin."
+    }
+   ]
+  }
+ ]
+}
