@@ -1,1 +1,6 @@
-{}
+{
+  "medtaxadvisors-co-uk": {
+    "since": "2026-11-01T06:16:00.206Z",
+    "why": "ERR_TLS_CERT_ALTNAME_INVALID"
+  }
+}
